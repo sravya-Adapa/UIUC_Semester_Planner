@@ -1,0 +1,1261 @@
+course_id,course_title,primary_instructor,average_grade
+BADM 210,Business Analytics I,"Larson, Eric",3.54
+BADM 210,Business Analytics I,"Pant, Shagun",3.79
+BADM 211,Business Analytics II,"Ahsen, Mehmet E",3.74
+BADM 211,Business Analytics II,"Bahrini, Aram",3.8
+BADM 211,Business Analytics II,"Gao, Yang",3.84
+BADM 211,Business Analytics II,"Haksoz, Cagri",3.24
+BADM 211,Business Analytics II,"Liu, Zilong",3.73
+BADM 211,Business Analytics II,"Moshref Javadi, Mohammad",3.58
+BADM 211,Business Analytics II,"Virudachalam, Vanitha",3.68
+BADM 261,Technology & Mgmt Seminar,"Koon, Samantha L",3.9
+BADM 275,Operations Management,"Baddam, Swathi Reddy",3.82
+BADM 275,Operations Management,"Han, Rongqing",3.79
+BADM 275,Operations Management,"Kirci, Ismail",3.72
+BADM 275,Operations Management,"Liang, Hongyan",3.78
+BADM 275,Operations Management,"Qiu, Shi",3.76
+BADM 275,Operations Management,"Tyagi, Hanu",3.8
+BADM 275,Operations Management,"Wang, Yixin",3.86
+BADM 300,The Legal Environment of Bus,"Warnick, Emerson T",3.86
+BADM 300,The Legal Environment of Bus,"Winter, Gretchen A",3.24
+BADM 300,The Legal Environment of Bus,"Wright, Margaret",3.73
+BADM 310,Mgmt and Organizational Beh,"Ji, Mingshuang",3.9
+BADM 310,Mgmt and Organizational Beh,"Swenddal, Heather J",3.9
+BADM 310,Mgmt and Organizational Beh,"White, Judith B",3.84
+BADM 311,Leading Individuals and Teams,"Goncalo, Jack",3.91
+BADM 311,Leading Individuals and Teams,"Gupta, Pranav",3.58
+BADM 311,Leading Individuals and Teams,"Luckman, Elizabeth",3.57
+BADM 312,Designing and Managing Orgs,"Khessina, Olga",3.68
+BADM 312,Designing and Managing Orgs,"Kraatz, Matthew S",3.47
+BADM 312,Designing and Managing Orgs,"Ocasio, William C",3.57
+BADM 312,Designing and Managing Orgs,"Swenddal, Heather J",
+BADM 313,Strategic Human Res Management,"Nelson, Dylan K",3.89
+BADM 314,Leading Negotiations,"Loewenstein, Jeffrey",3.24
+BADM 314,Leading Negotiations,"Ybarra, Oscar",3.58
+BADM 320,Principles of Marketing,"Kim, Myoung Hee",3.82
+BADM 320,Principles of Marketing,"Wolters, Mark E",3.69
+BADM 320,Principles of Marketing,"Xu, Jing",3.78
+BADM 322,Marketing Research,"Bao, Ying",3.55
+BADM 322,Marketing Research,"Kim, Myoung Hee",3.89
+BADM 323,Marketing Communications,"Raquel, Steve A",
+BADM 323,Marketing Communications,"White, Tiffany B",3.93
+BADM 324,Purchasing and Supply Mgmnt,"Haksoz, Cagri",3.86
+BADM 325,Consumer Behavior,"Han, Wenna",3.89
+BADM 325,Consumer Behavior,"Lee, Ji Hyun",3.43
+BADM 325,Consumer Behavior,"Lim, Sarah",3.96
+BADM 326,Pricing Strategy,"Liu, Yunchuan",3.68
+BADM 329,New Product Development,"Noel, Hayden N",3.84
+BADM 329,New Product Development,"Sharifironizi, Melika",3.89
+BADM 330,Brand Management,"Smith, Rosanna K",3.84
+BADM 331,Making Things,"Rindfleisch, Aric P",3.83
+BADM 335,Supply Chain Management Basics,"Scott, Nehemiah",3.52
+BADM 337,Practicum in Supply Chain Mgt,"Baddam, Swathi Reddy",
+BADM 337,Practicum in Supply Chain Mgt,"Mehrotra, Mili",
+BADM 338,Global Supply Chain Management,"Clougherty, Joseph A",3.82
+BADM 340,Ethical Dilemmas of Business,"Noonan, James R",3.85
+BADM 340,Ethical Dilemmas of Business,"Ward, Sarah",3.75
+BADM 341,Foundations of Strategic Mgmt,"Kim, June-Young",3.86
+BADM 346,Intro to Entrepreneurship,"Kourpas, Elias",3.8
+BADM 350,IT for Networked Organizations,"Gao, Yang",3.92
+BADM 350,IT for Networked Organizations,"Ghoshal, Abhijeet",3.88
+BADM 350,IT for Networked Organizations,"Sachdev, Vishal",3.68
+BADM 350,IT for Networked Organizations,"Subramanyam, Ramanath",3.68
+BADM 351,Social Media Strategy,"Ivanov, Anton",3.94
+BADM 351,Social Media Strategy,"Sumkin, Dmitrii",3.92
+BADM 352,Database Design and Management,"Garimella, Aravinda",3.93
+BADM 352,Database Design and Management,"Liu, Zilong",3.88
+BADM 353,Info Sys Analysis and Design,"Haran, Vidya",3.79
+BADM 353,Info Sys Analysis and Design,"Nelson, Matthew L",3.98
+BADM 356,Data Science and Analytics,"Moshref Javadi, Mohammad",3.6
+BADM 356,Data Science and Analytics,"Pant, Gautam",3.96
+BADM 358,Big Data Platforms,"Khandelwal, Ashish",
+BADM 359,Bus Prob Form and Soln,"Kim, June-Young",
+BADM 360,Digital Marketing,"Raquel, Steve A",3.86
+BADM 362,Intro to Consumer Analytics,"Bao, Ying",
+BADM 365,New Product Marketing,"Mehta, Ravi P",3.88
+BADM 366,Product Design and Development,"Sethi, Suresh",
+BADM 367,Mgmt of Innov and Technology,"Sakhartov, Arkadiy V",3.82
+BADM 370,Information Security Mgmt,"Ghoshal, Abhijeet",3.94
+BADM 371,UI/UX Design,"Haran, Vidya",
+BADM 374,Management Decision Models,"Kwon, Hyok-Jon D",3.48
+BADM 374,Management Decision Models,"Liang, Hongyan",3.75
+BADM 375,Operations Strategy,"Liang, Hongyan",3.82
+BADM 375,Operations Strategy,"Moshref Javadi, Mohammad",3.82
+BADM 377,Project Management,"Kirci, Ismail",3.47
+BADM 378,Logistics Management,"Bahrini, Aram",3.86
+BADM 379,Business Process Improvement,"Anand, Gopesh J",3.73
+BADM 380,International Business,"Bucheli, Marcelo",3.56
+BADM 380,International Business,"Martinez, Candace A",3.54
+BADM 380,International Business,"Minefee, Ishva",3.95
+BADM 381,Multinational Management,"Feng, Yilang",3.82
+BADM 381,Multinational Management,"Martinez, Candace A",3.72
+BADM 382,International Marketing,"Euh, Hyun",3.97
+BADM 382,International Marketing,"Torelli, Carlos J",3.69
+BADM 383,Business in the EU,"Martinez, Candace A",3.94
+BADM 395,"Business, Power & Inequality","Fulton, Brian R",3.73
+BADM 395,Illinois Bus Ethics Academy,"Warnick, Emerson T",
+BADM 395,Social Media Marketing,"Wolters, Mark E",
+BADM 395,Sustainable Op & Supply Chains,"Baddam, Swathi Reddy",
+BADM 403,Corporate & Commercial Law,"Fricke, Michael R",3.91
+BADM 403,Corporate & Commercial Law,"Wright, Margaret",3.93
+BADM 420,Advanced Marketing Management,"Rindfleisch, Aric P",3.78
+BADM 420,Advanced Marketing Management,"Wolters, Mark E",
+BADM 420,Advanced Marketing Management,"Yuan, Di",3.72
+BADM 446,Entrep: New Venture Creation,"Roach, Michael",3.84
+BADM 449,Business Policy and Strategy,"Chattopadhyay, Shinjinee",3.62
+BADM 449,Business Policy and Strategy,"Chung, Hyuck D",3.73
+BADM 449,Business Policy and Strategy,"Guo, Min",3.84
+BADM 449,Business Policy and Strategy,"Inoue, Carlos",3.68
+BADM 449,Business Policy and Strategy,"Isakova, Valerie",3.62
+BADM 449,Business Policy and Strategy,"Kim, June-Young",3.51
+BADM 449,Business Policy and Strategy,"Mahoney, Joseph T",3.66
+BADM 449,Business Policy and Strategy,"Martinez, Candace A",3.78
+BADM 449,Business Policy and Strategy,"Pedraza Novak, Daniela",3.48
+BADM 449,Business Policy and Strategy,"Rha, Young Sir",3.73
+BADM 449,Business Policy and Strategy,"Wang, Xin",3.76
+BADM 453,Business Intelligence,"Bahrini, Aram",3.96
+BADM 453,Business Intelligence,"Ivanov, Anton",3.92
+BADM 453,Business Intelligence,"Nelson, Matthew L",3.83
+BADM 460,Business Process Modeling,"Moshref Javadi, Mohammad",3.8
+BADM 461,"Tech, Eng, & Mgt Final Project","Sakhartov, Arkadiy V",
+BADM 463,iVenture Accelerator Sem I,"Kourpas, Elias",
+BADM 502,Communicating with Data,"Larson, Eric",3.84
+BADM 508,Leadership and Teams,"Keating, Kari H",3.72
+BADM 508,Leadership and Teams,"Kraatz, Matthew S",3.44
+BADM 508,Leadership and Teams,"Loewenstein, Jeffrey",3.28
+BADM 508,Leadership and Teams,"Luckman, Elizabeth",3.77
+BADM 509,Managing Organizations,"Bednar, Michael K",3.78
+BADM 510,Founds of Organizational Behav,"Ocasio, William C",
+BADM 513,Communication Strategy in Bus,"Winter, Gretchen A",3.66
+BADM 514,Managing Innovation,"Takeda, Yusaku",3.94
+BADM 520,Marketing Management,"Noel, Hayden N",3.87
+BADM 520,Marketing Management,"Raquel, Steve A",3.95
+BADM 523,Dig Transformation in Cons Beh,"Lim, Sarah",
+BADM 524,Pricing Strategy and Analytics,"Liu, Yunchuan",3.72
+BADM 525,New Product Development,"Noel, Hayden N",3.88
+BADM 526,Cons Analytics: Theory & Pract,"Bao, Ying",3.85
+BADM 527,Brand Management,"Smith, Rosanna K",3.68
+BADM 539,Math Models in Marketing,"Liu, Yunchuan",
+BADM 541,Foundations of Strategic Mgmt,"Kim, June-Young",
+BADM 543,Technology Strategy,"Roach, Michael",3.71
+BADM 544,Strategic Management,"Somaya, Deepak",3.72
+BADM 546,Entre & Innov I,"Shah, Sonali K",
+BADM 546,Entre & Innov II,"Shah, Sonali K",
+BADM 549,Economic Foundations of Strat,"Mahoney, Joseph T",
+BADM 550,Business Practicum,"Khandelwal, Ashish",3.9
+BADM 550,Business Practicum,"Kim, June-Young",3.96
+BADM 550,Business Practicum,"Kurtz, Jeffrey M",3.93
+BADM 550,Business Practicum,"Noonan, James R",3.92
+BADM 551,Managing Intellectual Property,"Bradley, Joe A",3.99
+BADM 554,Enterprise Database Management,"Sachdev, Vishal",3.4
+BADM 555,Info Sys Development and Mgt,"Haran, Vidya",3.81
+BADM 557,Topics in Bus Intelligence,"Bahrini, Aram",3.91
+BADM 557,Topics in Bus Intelligence,"Subramanyam, Ramanath",3.7
+BADM 558,Big Data Infrastructures,"Khandelwal, Ashish",3.92
+BADM 562,Social Media Strategy,"Ivanov, Anton",3.87
+BADM 566,Supply Chain Management,"Mukherjee, Ujjal K",
+BADM 567,Operations Management,"Anand, Gopesh J",3.86
+BADM 567,Operations Management,"Baddam, Swathi Reddy",3.7
+BADM 569,Research Topics in OM,"Mehrotra, Mili",
+BADM 572,Stat for Mgt Decision Making,"Taghaboni-Dutta, Fataneh",3.51
+BADM 573,Decision Analytics,"Kwon, Hyok-Jon D",3.85
+BADM 575,Supply Chain Analytics,"Mukherjee, Ujjal K",
+BADM 576,Data Science and Analytics,"Khandelwal, Ashish",3.85
+BADM 582,Multinational Management,"Feng, Yilang",3.58
+BADM 583,Global Supply Chain Mgmt,"Clougherty, Joseph A",3.67
+BADM 584,Global Marketing,"Euh, Hyun",3.97
+BADM 588,Business Practice Immersion,"Noonan, James R",3.97
+BADM 589,Project Management,"Kirci, Ismail",3.64
+BADM 589,Project Management,"Taghaboni-Dutta, Fataneh",3.71
+BADM 590,Analytics for Mgmt DecisionMkg,"Khandelwal, Ashish",3.84
+BADM 590,Entrepreneurship,"Sullivan, Nancy A",3.71
+BADM 590,Healthcare Process Mgmt,"Seshadri, Sridhar",3.92
+BADM 590,Marketing Analytics,"Narang, Unnati",3.63
+BADM 590,Politics of International Bus,"Bucheli, Marcelo",
+BADM 590,Professional Pathways in Bus,"Pachera, Susan",
+BADM 590,UI/UX Design,"Haran, Vidya",3.78
+CMN 101,Public Speaking,"Alberti, George L",3.77
+CMN 101,Public Speaking,"Allegretti, Anne E",3.69
+CMN 101,Public Speaking,"Armour, Lydia L",3.49
+CMN 101,Public Speaking,"Balester, Nathan",3.05
+CMN 101,Public Speaking,"Bishop, Mardia J",3.7
+CMN 101,Public Speaking,"Boelkow, Meghan M",3.58
+CMN 101,Public Speaking,"Bunch, Caroline M",3.49
+CMN 101,Public Speaking,"Choudhry, Bisma N",3.77
+CMN 101,Public Speaking,"Faussane, Eleanor",2.88
+CMN 101,Public Speaking,"Fung, Kaya S",3.6
+CMN 101,Public Speaking,"Gailey, Benjamin J",3.81
+CMN 101,Public Speaking,"Gallo, Franklin",3.17
+CMN 101,Public Speaking,"Ho, Frances",3.52
+CMN 101,Public Speaking,"Humphreys, Lea M",3.58
+CMN 101,Public Speaking,"Johnson, Lauren P",3.49
+CMN 101,Public Speaking,"Kierspe, Kevin R",3.72
+CMN 101,Public Speaking,"Lahmon, Teri T",3.66
+CMN 101,Public Speaking,"Mulvaney, Adan",3.56
+CMN 101,Public Speaking,"Okegbe, Samantha I",3.72
+CMN 101,Public Speaking,"Persad-Maharaj, Tamara",3.59
+CMN 101,Public Speaking,"Richards, Viveca A",
+CMN 101,Public Speaking,"Rodrigues Gomes, Luis Alb",3.88
+CMN 101,Public Speaking,"Shields, Lillianna R",3.58
+CMN 101,Public Speaking,"St John, Jeremiah",3.5
+CMN 101,Public Speaking,"Stewart, Nathaniel M",3.06
+CMN 101,Public Speaking,"Toler, Catherine C",3.79
+CMN 101,Public Speaking,"White, Nia",3.4
+CMN 101,Public Speaking,"Yan, Jia",
+CMN 102,Introduction to Communication,"G Son, Gopashis Biswas",3.11
+CMN 102,Introduction to Communication,"Quick, Brian L",3.0
+CMN 111,Oral & Written Comm I,"De Oliveira Mir, Renata",3.6
+CMN 111,Oral & Written Comm I,"Edor, Matthew",3.77
+CMN 111,Oral & Written Comm I,"G Son, Gopashis Biswas",3.47
+CMN 111,Oral & Written Comm I,"Kincer, Terry M",3.14
+CMN 111,Oral & Written Comm I,"Murphy, Kathleen B",3.78
+CMN 111,Oral & Written Comm I,"Murphy, Margaret A",3.83
+CMN 111,Oral & Written Comm I,"Shields, Lillianna R",3.67
+CMN 112,Oral & Written Comm II,"De Oliveira Mir, Renata",3.87
+CMN 112,Oral & Written Comm II,"Edor, Matthew",3.78
+CMN 112,Oral & Written Comm II,"G Son, Gopashis Biswas",
+CMN 112,Oral & Written Comm II,"Kincer, Terry M",
+CMN 112,Oral & Written Comm II,"Klajbor, Michael F",
+CMN 112,Oral & Written Comm II,"Murphy, Kathleen B",3.35
+CMN 112,Oral & Written Comm II,"Murphy, Margaret A",3.81
+CMN 112,Oral & Written Comm II,"Sanders, Jacob D",
+CMN 112,Oral & Written Comm II,"Wright, Anna M",3.64
+CMN 204,Internship in Teaching Comm,"Giorgio, Grace A",
+CMN 210,Public Comm in Everyday Life,"O'Gorman, Thomas E",3.42
+CMN 211,Business and Professional Comm,"Bunch, Caroline M",3.66
+CMN 211,Business and Professional Comm,"Cunningham, Leanne M",3.5
+CMN 212,Intro to Organizational Comm,"Kim, Min Kyung",3.53
+CMN 213,Small Group Communication,"Barley, William",3.32
+CMN 214,Org Comm & Diversity,"Wright-Dixon, Trina J",3.43
+CMN 215,Interviewing,"Lombardi, Carol C",
+CMN 220,Communicating Public Policy,"Golding, Wallace S",3.72
+CMN 230,Intro to Interpersonal Comm,"Guntzviller, Lisa",3.54
+CMN 232,Intro to Intercultural Comm,"Caddell, Mackenzie E",3.44
+CMN 232,Intro to Intercultural Comm,"Koven, Michele E",3.46
+CMN 250,Social Movement Communication,"Cisneros, Josue D",3.63
+CMN 250,Social Movement Communication,"Kolson, Erica R",3.53
+CMN 260,Intro to Health Communication,"Babu, Sara",3.37
+CMN 260,Intro to Health Communication,"Chung, Minhey",3.23
+CMN 277,Intro to Mediated Comm,"Coles, Stewart M",3.46
+CMN 277,Intro to Mediated Comm,"Dixon, Travis L",3.18
+CMN 280,Comm Technology & Society,"Yang, JungHwan",3.48
+CMN 314,Organizations and Communities,"Kim, Min Kyung",3.42
+CMN 321,Strategies of Persuasion,"Murphy, John M",2.6
+CMN 323,Argumentation,"Melendez, Tanya",3.52
+CMN 323,Argumentation,"Murphy, John M",2.97
+CMN 326,Mass Media and the Audience,"Fujimoto, Elinor M",2.85
+CMN 326,Mass Media and the Audience,"Hartman, Daniel",3.12
+CMN 327,Comm and Public Opinion,"Van Duyn, Emily E",2.86
+CMN 328,Social Media and Politics,"Van Duyn, Emily E",3.32
+CMN 336,Communicating in Families,"Ramey, Mary E",3.78
+CMN 338,Relationships and Technologies,"Mendelson, Emily",3.13
+CMN 340,Visual Politics,"Fields, Victoria T",3.86
+CMN 345,Visual Media Effects,"Bigsby, Elisabeth",3.06
+CMN 361,Storytelling as Oral Comm,"Bishop, Mardia J",3.28
+CMN 368,Sexual Communication,"Ramey, Mary E",3.66
+CMN 375,Imagining the Past and Future,"Giorgio, Grace A",3.73
+CMN 375,The American Family,"Giorgio, Grace A",3.69
+CMN 396,"Clouds, Crowds, and Community","Barbour, Joshua B",
+CMN 396,Communication & Leadership,"Jones Barbour, Jennifer L",3.53
+CMN 396,Leading Nonprofits,"Guyette, Rebecca A",3.87
+CMN 396,Media Stories & Society,"Mustafaj, Matea",3.67
+CMN 396,Media and Crime,"Coles, Stewart M",3.34
+CMN 396,Organizational Change,"Barbour, Joshua B",
+CMN 410,Workplace Comm Technology,"Barley, William",3.38
+CMN 425,Entertainment and Politics,"Coles, Stewart M",3.73
+CMN 432,Gender Communication,"Giorgio, Grace A",3.72
+CMN 435,Building Interpersonal Skills,"Guntzviller, Lisa",3.72
+CMN 450,Presidential Rhetoric,"Murphy, John M",
+CMN 462,Health Comm in Relationships,"Thompson, Charee M",3.34
+CMN 465,Social Marketing,"Quick, Brian L",3.6
+CMN 467,Communication & Health Equity,"Bigman-Galimore, Cabral A",
+CMN 505,Provider-Patient Communication,"Clark, Louise E",
+CMN 508,Health Marketing,"Quick, Brian L",
+CMN 529,AI & Computational Comm,"Yang, JungHwan",
+CMN 529,Family Communication,"Caughlin, John P",
+CMN 529,"Language, Culture & Identity","Koven, Michele E",
+CMN 529,Organizations & Community,"Kim, Min Kyung",
+CMN 529,Persuasion,"Quick, Brian L",
+CMN 529,Political Communication,"Coles, Stewart M",
+CMN 538,Intro Rhet & Crit/Cult Studies,"Cisneros, Josue D",
+CMN 575,Capstone Individual Study,"Weiner, Lauren H",
+CMN 595,Family Health Comm,"Weiner, Lauren H",
+CMN 595,Healthcare Teams,"Jones Barbour, Jennifer L",
+CMN 595,Special Problems,"Weiner, Lauren H",
+CMN 595,Stigma in Healthcare,"Thompson, Charee M",3.43
+CS 101,Intro Computing: Engrg & Sci,"Beckman, Mattox A",3.49
+CS 101,Intro Computing: Engrg & Sci,"Butler, Liia M",3.56
+CS 105,Intro Computing: Non-Tech,"Fowler, Maxwell L",3.36
+CS 124,Intro to Computer Science I,"Challen, Geoffrey W",3.57
+CS 128,Intro to Computer Science II,"Nowak, Michael",3.68
+CS 128,Intro to Computer Science II,"Schatz, Jule",3.65
+CS 173,Discrete Structures,"Evans, Graham C",3.2
+CS 173,Discrete Structures,"Fleck, Margaret M",3.18
+CS 199,CA Training,"Lewis, Colleen M",
+CS 199,CS Stars,"Amato, Nancy M",
+CS 199,Computational Tech & Society,"Challen, Geoffrey W",
+CS 199,Pedagogy Practicum,"Challen, Geoffrey W",
+CS 210,Ethical & Professional Issues,"Cunningham, Ryan M",3.58
+CS 211,Ethical & Professional Conduct,"Cunningham, Ryan M",3.75
+CS 222,Software Design Lab,"Woodley, Michael J",3.84
+CS 225,Data Structures,"Evans, Graham C",3.47
+CS 225,Data Structures,"Kindratenko, Volodymyr",3.62
+CS 225,Data Structures,"Solomon, Brad R",3.48
+CS 233,Computer Architecture,"Zilles, Craig",3.6
+CS 277,Algo & Data Stru for Data Sci,"Solomon, Brad R",3.63
+CS 307,Model & Learning in Data Sci,"Dalpiaz, David M",3.67
+CS 340,Intro to Computer Systems,"Tychonievich, Luther A",3.54
+CS 341,System Programming,"Angrave, Lawrence",3.76
+CS 357,Numerical Methods I,"Silva, Mariana T",3.54
+CS 361,Prob & Stat for Computer Sci,"Liu, Hongye",3.6
+CS 374,Intro to Algs & Models of Comp,"Abraham, Ivan T",3.22
+CS 374,Intro to Algs & Models of Comp,"Chekuri, Chandra S",2.99
+CS 374,Intro to Algs & Models of Comp,"Har-Peled, Sariel",3.11
+CS 374,Intro to Algs & Models of Comp,"Umrawal, Abhishek Kumar",3.12
+CS 400,Accel Fund of Computing I,"Williams, Tiffani L",3.51
+CS 401,Accel Fund of Algorithms I,"Gertner, Yael",3.8
+CS 402,Accel Fund of Computing II,"Williams, Tiffani L",
+CS 403,Accel Fund of Algorithms II,"Gertner, Yael",
+CS 409,The Art of Web Programming,"Kumar, Ranjitha",3.7
+CS 410,Text Information Systems,"Robles Granda, Pablo D",3.92
+CS 410,Text Information Systems,"Zhai, Chengxiang",3.9
+CS 411,Database Systems,"Alawini, Abdussalam A",3.86
+CS 411,Database Systems,"Chang, Kevin C",3.89
+CS 412,Introduction to Data Mining,"Banerjee, Arindam",3.78
+CS 412,Introduction to Data Mining,"Tahboub, Ruby",3.69
+CS 415,Game Development,"Shaffer, Eric G",3.74
+CS 416,Data Visualization,"Hart, John C",3.82
+CS 418,Interactive Computer Graphics,"Tychonievich, Luther A",3.42
+CS 421,Progrmg Languages & Compilers,"Beckman, Mattox A",3.54
+CS 421,Progrmg Languages & Compilers,"Gunter, Elsa",3.06
+CS 421,Progrmg Languages & Compilers,"Misailovic, Sasa",3.4
+CS 423,Operating Systems Design,"Alagappan, Ramnatthan",3.89
+CS 423,Operating Systems Design,"Xu, Tianyin",3.49
+CS 424,Real-Time Systems,"Abdelzaher, Tarek",3.74
+CS 425,Distributed Systems,"Gupta, Indranil",3.52
+CS 425,Distributed Systems,"Mittal, Radhika",3.33
+CS 426,Compiler Construction,"Mendis, Thirimadura C",3.55
+CS 427,Software Engineering I,"Marinov, Darko",3.72
+CS 427,Software Engineering I,"Zhang, Lingming",3.79
+CS 431,Embedded Systems,"Sha, Lui R",3.5
+CS 433,Computer System Organization,"Adve, Sarita V",3.17
+CS 433,Computer System Organization,"Ghose, Saugata",3.34
+CS 435,Cloud Networking,"Godfrey, Philip B",3.88
+CS 437,Networked IoT Systems,"Caesar, Matthew C",3.29
+CS 437,Topics in Internet of Things,"Caesar, Matthew C",3.59
+CS 438,Communication Networks,"Soltanaghai, Elahe",3.52
+CS 438,Communication Networks,"Wei, Yu-Lin",3.59
+CS 440,Artificial Intelligence,"Fleck, Margaret M",3.42
+CS 440,Artificial Intelligence,"Hasegawa-Johnso, Mark A",3.85
+CS 441,Applied Machine Learning,"Hoiem, Derek W",3.88
+CS 441,Applied Machine Learning,"Morales Aguirre, Marco An",3.82
+CS 442,Trustworthy Machine Learning,"Zhao, Han",2.85
+CS 444,Deep Learning for Compt Visn,"Gupta, Saurabh",3.32
+CS 444,Deep Learning for Compt Visn,"Lazebnik, Svetlana",3.87
+CS 445,Computational Photography,"Hoiem, Derek W",3.76
+CS 445,Computational Photography,"Wang, Yuxiong",3.85
+CS 446,Machine Learning,"Gui, Liangyan",3.52
+CS 446,Machine Learning,"Zhang, Tong",3.48
+CS 447,Natural Language Processing,"Hockenmaier, Julia C",3.71
+CS 448,Audio Computing Laboratory,"Smaragdis, Paris",3.55
+CS 450,Numerical Analysis,"Fischer, Paul",3.48
+CS 450,Numerical Analysis,"Kloeckner, Andreas P",3.37
+CS 461,Computer Security I,"Bates, Adam",
+CS 461,Computer Security I,"Borisov, Nikita",2.98
+CS 461,Computer Security I,"Ren, Ling",3.24
+CS 463,Computer Security II,"Chandrasekaran, Varun",3.56
+CS 463,Computer Security II,"Wang, Gang",3.88
+CS 464,Topics in Societal Impacts,"Cobb, Camille M",3.56
+CS 465,User Interface Design,"Bailey, Brian P",3.63
+CS 466,Introduction to Bioinformatics,"El-Kebir, Mohammed",3.45
+CS 470,Social and Information Network,"Sundaram, Hari",3.94
+CS 473,Algorithms,"Chan, Timothy M",3.13
+CS 473,Algorithms,"Erickson, Jeff G",3.29
+CS 477,Formal Software Devel Methods,"Singh, Gagandeep",3.59
+CS 484,Parallel Programming,"Rauchwerger, Lawrence",3.64
+CS 493,"Senior Project II, ACP","Woodley, Michael J",
+CS 494,Senior Project II,"Woodley, Michael J",
+CS 498,Cloud Computing Applications,"Farivar, Reza",3.62
+CS 498,Computational Geometry,"Chan, Timothy M",3.54
+CS 498,Computational Social Science,"Chandrasekharan, Eshwar",3.88
+CS 498,Data Management in the Cloud,"Alawini, Abdussalam A",3.82
+CS 498,Intro to Quantum Computing,"Sinha, Makrand",3.94
+CS 498,Law &Policy Issues in CS,"Cunningham, Ryan M",3.66
+CS 498,Machine Learning System,"Zhang, Minjia",
+CS 500,Broadening Particip in CS Ed,"Lewis, Colleen M",3.96
+CS 510,Advanced Information Retrieval,"Zhai, Chengxiang",3.98
+CS 511,Advanced Data Management,"Park, Yongjoo",3.73
+CS 514,Adv Social and Info Networks,"Sundaram, Hari",
+CS 519,Scientific Visualization,"Shaffer, Eric G",3.78
+CS 521,ML & Compilers,"Mendis, Thirimadura C",
+CS 521,ML & Compilers,"Misailovic, Sasa",3.79
+CS 521,Tech Found of Blockchain,"Rosu, Grigore",3.9
+CS 523,Advanced Operating Systems,"Xu, Tianyin",3.82
+CS 524,Concurrent Progrmg Languages,"Meseguer, Jose",
+CS 525,Advanced Distributed Systems,"Gupta, Indranil",
+CS 526,Advanced Compiler Construction,"Adve, Vikram S",
+CS 527,Topics in Software Engineering,"Marinov, Darko",3.8
+CS 533,Parallel Computer Architecture,"Torrellas, Josep",3.69
+CS 534,Adv Topics in Comp Arch,"Ghose, Saugata",3.66
+CS 537,Advanced Topics in IoT,"Nahrstedt, Klara",3.61
+CS 538,Advanced Computer Networks,"Yan, Francis Y",3.97
+CS 542,Stat Reinforcement Learning,"Jiang, Nan",3.43
+CS 545,Machine Learning for Signals,"Kim, Minje",3.73
+CS 546,Adv Topics in NLP,"Ji, Heng",3.81
+CS 555,Numerical Methods for PDEs,"Olson, Luke",3.81
+CS 562,Adv. Trustworthy Mach. Lrng.,"Wang, Gang",3.89
+CS 563,Advanced Computer Security,"Borisov, Nikita",3.78
+CS 565,Ethics in AI,"Sultana, Sharifa",
+CS 567,Social Spaces,"Karahalios, Kyratso G",3.85
+CS 568,User-Centered Machine Learning,"Kumar, Ranjitha",3.89
+CS 581,Algorithmic Genomic Biology,"Warnow, Tandy",
+CS 588,Autonomous Vehicle System Eng,"Hauser, Kris",3.16
+CS 598,3-D Vision,"Wang, Shenlong",3.97
+CS 598,ADV Comp. Topics in Robotics,"Hauser, Kris",3.3
+CS 598,AI Efficiency: Sys. & Algor.,"Zhang, Minjia",3.68
+CS 598,Advanced Bayesian Modeling,"Park, Trevor H",3.6
+CS 598,Advanced Data Structures,"Erickson, Jeff G",
+CS 598,Advanced Perform Engineering,"Moses, William S",3.91
+CS 598,Conversational AI,"Hakkani Tur, Dilek",3.78
+CS 598,Data Mining Capstone,"Farivar, Reza",3.96
+CS 598,Deep Generative Models,"Banerjee, Arindam",3.91
+CS 598,Deep Learning For Healthcare,"Sun, Jimeng",
+CS 598,Deep Learning with Graphs,"You, Jiaxuan",3.93
+CS 598,Deep Lrng for Healthcare,"Sun, Jimeng",3.87
+CS 598,Endpt Threat Detect. & Invest.,"Bates, Adam",3.85
+CS 598,Fault-Tol Consistent Data Sys,"Ganesan, Aishwarya",3.82
+CS 598,Foundations of Data Curation,"Willis, Craig A",3.93
+CS 598,Gen Mod for BioMed & Life Sci,"Liu, Ge",3.89
+CS 598,Generative Models for Audio,"Kim, Minje",
+CS 598,Geometric Approx Algorithms,"Har-Peled, Sariel",
+CS 598,Hot Topics in Data Management,"Park, Yongjoo",3.75
+CS 598,How to Do Research,"Kang, Daniel",3.92
+CS 598,LLM Post-pretraining,"Peng, Hao",3.9
+CS 598,Lang & Abstractions for HPC,"Kloeckner, Andreas P",
+CS 598,"Lang., Interfaces, and Comm.","August, Tal M",3.86
+CS 598,"Language, Interfaces, and Comm","August, Tal M",3.71
+CS 598,ML Algorithms for LLMs,"Zhang, Tong",3.86
+CS 598,ML for Software Engineering,"Jabbarvand Behr, Reyhaneh",3.98
+CS 598,Methods & Applic in Net Analys,"Chacko, George",
+CS 598,Parallel Programming Models,"Rauchwerger, Lawrence",
+CS 598,Practical Statistical Learning,"Liang, Feng",3.79
+CS 598,Pseudorandomness,"Forbes, Michael A",
+CS 598,Robot Learning,"Gupta, Saurabh",
+CS 598,Sec and Priv for IoT in Homes,"Gunter, Carl",
+CS 598,Software QA w Generative AI,"Zhang, Lingming",3.83
+CS 598,Systems for GenAI,"Lai, Fan",3.92
+CS 598,Tactile Sensing and Haptics,"Yuan, Wenzhen",
+CS 598,Text Mining Large Lang. Models,"Han, Jiawei",3.87
+CS 598,Topics in LLM Agents,"You, Jiaxuan",
+CS 598,Using LLMs AKA ChatGPT,"Chang, Kevin C",
+ECE 101,Exploring Digital Info Technol,"Chakravarty, Abrita",3.64
+ECE 110,Introduction to Electronics,"Choi, Hyungsoo",3.1
+ECE 110,Introduction to Electronics,"Kim, Kyekyoon",3.27
+ECE 110,Introduction to Electronics,"Ravaioli, Umberto",3.84
+ECE 110,Introduction to Electronics,"Schmitz, Christopher",3.48
+ECE 110,Introduction to Electronics,"Schuh, Jonathon K",3.3
+ECE 110,Introduction to Electronics,"Venugopal, Gomathi",3.06
+ECE 120,Introduction to Computing,"Bhat, Suma P",3.04
+ECE 120,Introduction to Computing,"Bhowmik, Ujjal K",3.22
+ECE 120,Introduction to Computing,"Iyer, Ravishankar K",2.86
+ECE 120,Introduction to Computing,"Umrawal, Abhishek Kumar",3.01
+ECE 198,James Scholars Honors Course,"Schmitz, Christopher",3.88
+ECE 199,ECE 110 Merit Section,"Schmitz, Christopher",
+ECE 199,ECE 120 Merit Section,"Schmitz, Christopher",
+ECE 199,Undergraduate Open Seminar,"Schmitz, Christopher",3.72
+ECE 205,Electrical & Electronic Ckts,"Ravaioli, Umberto",3.8
+ECE 206,Electrical & Electronics Lab,"Radhakrishnan, Chandrasek",3.98
+ECE 210,Analog Signal Processing,"Alvarez, Juan",2.45
+ECE 210,Analog Signal Processing,"Chen, Xu",2.98
+ECE 210,Analog Signal Processing,"He, Wei",2.66
+ECE 210,Analog Signal Processing,"Kudeki, Erhan",3.51
+ECE 210,Analog Signal Processing,"Schmitz, Christopher",2.36
+ECE 210,Analog Signal Processing,"Shao, Yang V",2.44
+ECE 210,Analog Signal Processing,"Shultz, Craig D",2.58
+ECE 210,Analog Signal Processing,"Snyder, Corey E",2.63
+ECE 211,Analog Circuits & Systems,"Alvarez, Juan",
+ECE 211,Analog Circuits & Systems,"He, Wei",
+ECE 211,Analog Circuits & Systems,"Kudeki, Erhan",3.53
+ECE 211,Analog Circuits & Systems,"Schmitz, Christopher",2.6
+ECE 211,Analog Circuits & Systems,"Shao, Yang V",
+ECE 211,Analog Circuits & Systems,"Snyder, Corey E",
+ECE 217,Solar Car,"Banerjee, Arijit",
+ECE 220,Computer Systems & Programming,"Abraham, Ivan T",2.62
+ECE 220,Computer Systems & Programming,"Bhowmik, Ujjal K",3.12
+ECE 220,Computer Systems & Programming,"Chen, Yuting W",2.98
+ECE 220,Computer Systems & Programming,"Moon, Thomas",2.76
+ECE 298,Semiconductor Chips Revolution,"Rakheja, Shaloo",3.94
+ECE 304,Photonic Devices,"Choquette, Kent D",3.03
+ECE 305,Quantum Systems I,"Chitambar, Eric A",
+ECE 310,Digital Signal Processing,"Do, Minh N",2.91
+ECE 310,Digital Signal Processing,"Liang, Zhi-Pei",2.81
+ECE 310,Digital Signal Processing,"Radhakrishnan, Chandrasek",3.41
+ECE 310,Digital Signal Processing,"Shomorony, Ilan",2.79
+ECE 310,Digital Signal Processing,"Snyder, Corey E",3.04
+ECE 311,Digital Signal Processing Lab,"Do, Minh N",3.52
+ECE 311,Digital Signal Processing Lab,"Liang, Zhi-Pei",3.41
+ECE 311,Digital Signal Processing Lab,"Snyder, Corey E",3.56
+ECE 313,Probability with Engrg Applic,"Alvarez, Juan",2.83
+ECE 313,Probability with Engrg Applic,"Chen, Xu",2.76
+ECE 313,Probability with Engrg Applic,"Iyer, Ravishankar K",3.26
+ECE 313,Probability with Engrg Applic,"Katselis, Dimitrios",2.77
+ECE 313,Probability with Engrg Applic,"Milenkovic, Olgica",2.75
+ECE 313,Probability with Engrg Applic,"Tsopelakos, Aristomenis",2.55
+ECE 313,Probability with Engrg Applic,"Veeravalli, Venugopal V",2.37
+ECE 314,Probability in Engineering Lab,"Hajek, Bruce",3.65
+ECE 314,Probability in Engineering Lab,"Iyer, Ravishankar K",
+ECE 316,Ethics and Engineering,"Hillmer, Philip M",3.81
+ECE 329,Fields and Waves I,"Chen, Xu",3.12
+ECE 329,Fields and Waves I,"Goddard, Lynford L",3.11
+ECE 329,Fields and Waves I,"Shao, Yang V",2.83
+ECE 329,Fields and Waves I,"Waldrop, Lara",2.87
+ECE 330,Power Ckts & Electromechanics,"Mironenko, Olga",3.4
+ECE 330,Power Ckts & Electromechanics,"Schuh, Jonathon K",3.32
+ECE 330,Power Ckts & Electromechanics,"Zhang, Richard Y",3.43
+ECE 333,Green Electric Energy,"Mironenko, Olga",3.27
+ECE 333,Green Electric Energy,"Schuh, Jonathon K",3.09
+ECE 340,Semiconductor Electronics,"Bogdanov, Simeon",2.74
+ECE 340,Semiconductor Electronics,"Dallesasse, John M",2.78
+ECE 340,Semiconductor Electronics,"He, Wei",2.57
+ECE 340,Semiconductor Electronics,"Leburton, Jean-Pierre",3.17
+ECE 340,Semiconductor Electronics,"Zhu, Wenjuan",2.63
+ECE 342,Electronic Circuits,"Radhakrishnan, Chandrasek",3.17
+ECE 342,Electronic Circuits,"Shanbhag, Naresh R",3.28
+ECE 343,Electronic Circuits Laboratory,"Radhakrishnan, Chandrasek",3.86
+ECE 350,Fields and Waves II,"Jin, Jianming",
+ECE 364,Data Science and Engineering,"Kani, Nickvash",
+ECE 364,Programming Methods for ML,"Kamalabadi, Farzad",3.74
+ECE 364,Programming Methods for ML,"Kani, Nickvash",3.7
+ECE 380,Biomedical Imaging,"Song, Pengfei",3.48
+ECE 385,Digital Systems Laboratory,"Cheng, Zuofu",3.54
+ECE 391,Computer Systems Engineering,"Levchenko, Kirill I",2.67
+ECE 391,Computer Systems Engineering,"Wang, Dong Kai",2.6
+ECE 395,Advanced Digital Projects Lab,"Niu, Yilong",3.67
+ECE 395,Advanced Digital Projects Lab,"Smith, Casey J",
+ECE 398,Electric Vehicles (EVs),"Mironenko, Olga",3.47
+ECE 398,Intro Modrn to Comm Python SDR,"Moon, Thomas",
+ECE 401,Signal Processing,"Hasegawa-Johnso, Mark A",3.56
+ECE 402,Electronic Music Synthesis,"Cheng, Zuofu",3.24
+ECE 406,Quantum Optics and Devices,"Fang, Kejie",
+ECE 407,Cryptography,"Heath, David A",3.12
+ECE 407,Cryptography,"Zhang, Yupeng",3.33
+ECE 408,Applied Parallel Programming,"Kindratenko, Volodymyr",3.11
+ECE 408,Applied Parallel Programming,"Lumetta, Steven S",3.23
+ECE 411,Computer Organization & Design,"Kim, Nam Sung",3.0
+ECE 411,Computer Organization & Design,"Wang, Dong Kai",2.86
+ECE 416,Biosensors,"Cunningham, Brian T",3.24
+ECE 420,Embedded DSP Laboratory,"Moon, Thomas",3.72
+ECE 421,Neural Interface Engineering,"Vlasov, Yurii A",3.24
+ECE 425,Intro to VLSI System Design,"Wang, Dong Kai",3.14
+ECE 431,Electric Machinery,"Haran, Kiruba S",3.27
+ECE 434,Real World Algorithms - IoT/DS,"Wei, Yu-Lin",3.61
+ECE 437,Sensors and Instrumentation,"Gruev, Viktor",3.96
+ECE 439,Wireless Networks,"Kravets, Robin H",2.93
+ECE 443,LEDs and Solar Cells,"Bayram, Can",3.44
+ECE 444,IC Device Theory & Fabrication,"Froeter, Paul J",3.26
+ECE 444,IC Device Theory & Fabrication,"Kim, Hyunseok",3.38
+ECE 444,IC Device Theory & Fabrication,"Lee, Minjoo L",3.27
+ECE 445,Senior Design Project Lab,"Fliflet, Arne W",3.39
+ECE 445,Senior Design Project Lab,"Shultz, Craig D",3.52
+ECE 447,Active Microwave Ckt Design,"Chen, Xu",
+ECE 448,Artificial Intelligence,"Hasegawa-Johnso, Mark A",3.91
+ECE 450,Fiber Optic Communications,"Dragic, Peter D",
+ECE 451,Adv Microwave Measurements,"Schutt-Aine, Jose E",3.91
+ECE 453,Wireless Communication Systems,"Schutt-Aine, Jose E",3.39
+ECE 455,Optical Electronics,"Dragic, Peter D",3.69
+ECE 457,Microwave Devices & Circuits,"Gong, Songbin",
+ECE 460,Optical Imaging,"Tu, Haohua",
+ECE 461,Digital Communications,"Alvarez, Juan",
+ECE 462,Logic Synthesis,"Aggarwal, Anu",3.65
+ECE 464,Power Electronics,"Banerjee, Arijit",2.76
+ECE 467,Biophotonics,"Chen, Yun-Sheng",
+ECE 469,Power Electronics Laboratory,"Banerjee, Arijit",3.92
+ECE 470,Introduction to Robotics,"Belabbas, Mohamed Ali",3.55
+ECE 470,Introduction to Robotics,"Driggs-Campbell, Katherin",3.6
+ECE 476,Power System Analysis,"Dominguez-Garci, Alejandr",3.6
+ECE 479,IoT and Cognitive Computing,"Kindratenko, Volodymyr",3.04
+ECE 481,Nanotechnology,"Lyding, Joseph W",3.51
+ECE 482,Digital IC Design,"Rosenbaum, Elyse",3.05
+ECE 483,Analog IC Design,"Hanumolu, Pavan Kumar",3.35
+ECE 484,Principles of Safe Autonomy,"Belabbas, Mohamed Ali",
+ECE 484,Principles of Safe Autonomy,"Bhowmik, Ujjal K",3.54
+ECE 484,Principles of Safe Autonomy,"Mitra, Sayan",3.5
+ECE 486,Control Systems,"Belabbas, Mohamed Ali",3.3
+ECE 486,Control Systems,"Dominguez-Garci, Alejandr",3.26
+ECE 486,Control Systems,"Hu, Bin",3.38
+ECE 490,Introduction to Optimization,"Raginsky, Maxim",3.57
+ECE 490,Introduction to Optimization,"Srikant, Rayadurgam",3.47
+ECE 498,Advanced VLSI System Design,"Wang, Dong Kai",3.9
+ECE 498,Concepts in Computer Org & Des,"Wang, Dong Kai",
+ECE 498,Electric Mobility Systems,"Stillwell, Andrew R",3.85
+ECE 498,LLM Reasoning for Engineering,"Hu, Bin",3.92
+ECE 498,Quantum Info Processing Theory,"Chitambar, Eric A",3.8
+ECE 498,Semiconductor Innovations,"Dallesasse, John M",
+ECE 498,VLSI in Machine Learning,"Shanbhag, Naresh R",3.62
+ECE 511,Computer Architecture,"Kumar, Rakesh",3.48
+ECE 513,Vector Space Signal Processing,"Do, Minh N",
+ECE 515,Control System Theory & Design,"Hajek, Bruce",3.57
+ECE 515,Control System Theory & Design,"Salapaka, Srinivasa M",3.75
+ECE 518,Adv Semiconductor Nanotech,"Lyding, Joseph W",3.81
+ECE 520,EM Waves & Radiating Systems,"Peng, Zhen",3.76
+ECE 522,Emerging Memory/Storage System,"Huang, Jian",3.75
+ECE 526,Distributed Algorithms,"Ren, Ling",3.6
+ECE 528,Analysis of Nonlinear Systems,"Mehta, Prashant G",
+ECE 529,Light-Matter Interactions,"Zhao, Yang",3.86
+ECE 534,Random Processes,"Katselis, Dimitrios",3.95
+ECE 534,Random Processes,"Shomorony, Ilan",3.84
+ECE 535,Theory of Semicond & Devices,"Rakheja, Shaloo",3.48
+ECE 537,Speech Processing Fundamentals,"Hasegawa-Johnso, Mark A",3.65
+ECE 538,2D Material Electr & Photonics,"Zhu, Wenjuan",3.79
+ECE 540,Computational Electromagnetics,"Jin, Jianming",
+ECE 543,Statistical Learning Theory,"Katselis, Dimitrios",
+ECE 549,Computer Vision,"Lazebnik, Svetlana",3.79
+ECE 551,Digital Signal Processing II,"Liang, Zhi-Pei",3.75
+ECE 553,Optimum Control Systems,"Liberzon, Daniel M",3.81
+ECE 558,Digital Imaging,"Kamalabadi, Farzad",3.67
+ECE 561,Statistical Inference ENG & DS,"Moulin, Pierre",
+ECE 563,Information Theory,"Milenkovic, Olgica",3.86
+ECE 568,Model & Cntrl Electromech Syst,"Banerjee, Arijit",3.93
+ECE 572,Quantum Opto-Electronics,"Choquette, Kent D",
+ECE 576,Power System Dynm & Stability,"Bose, Subhonmesh",
+ECE 581,Advanced Analog IC Design,"Hanumolu, Pavan Kumar",3.76
+ECE 584,Embedded System Verification,"Zhang, Huan",
+ECE 598,Adv. RF & mm-wave IC Design,"Ahmed, Mostafa M",
+ECE 598,Advanced Power Electronics,"Stillwell, Andrew R",3.86
+ECE 598,Deploying Privacy,"Luo, Ning",
+ECE 598,Fiber Photonics,"Dragic, Peter D",
+ECE 598,Interactive Haptic Systems,"Shultz, Craig D",
+ECE 598,Modern Cloud Infrastructure,"Agarwal, Saksham",3.79
+ECE 598,Robot Learning,"Gupta, Saurabh",
+HIST 100,Global History,"Alli, Ganiyat A",3.45
+HIST 100,Global History,"Hong, Hyewon",3.56
+HIST 100,Global History,"Khudzik, Stanislav",3.16
+HIST 100,Global History,"Natale, Marisa G",2.87
+HIST 100,Global History,"Polanski, Julian N",3.63
+HIST 100,Global History,"Sagonda, Vongai O",3.61
+HIST 103,History of Everything,"Eberhardt, Grace M",3.78
+HIST 103,History of Everything,"Froiland, Samuel D",3.48
+HIST 103,History of Everything,"Vucicevic, Damir",3.83
+HIST 104,Black Music,"Alli, Ganiyat A",3.59
+HIST 104,Black Music,"Lawton, Bishop W",3.61
+HIST 104,Black Music,"Mandala, Ruth V",3.86
+HIST 104,Black Music,"Thomas, Andrew T",3.47
+HIST 104,Black Music,"Vaughn, Taryn K",3.71
+HIST 104,Black Music,"Wallis, Benjamin",3.76
+HIST 104,Black Music,"Warner, Sophia A",3.55
+HIST 105,Latin America to Independence,"Brosseder, Claudia R",3.74
+HIST 106,Modern Latin America,"Duarte Zappelin, Thais",3.89
+HIST 111,History of Africa to 1800,"Nobili, Mauro",3.7
+HIST 120,East Asian Civilizations,"Li, Haiyi",3.72
+HIST 120,East Asian Civilizations,"Stetsuk, Alina",3.62
+HIST 120,East Asian Civilizations,"Wu, Jinju",
+HIST 130,History of South Asia,"Baul, Deepasri",3.95
+HIST 135,History of Islamic Middle East,"Goffman, Laura F",3.65
+HIST 142,Modern Europe and the World,"Vucicevic, Damir",3.42
+HIST 164,The Automobile,"Abosch, Elizabeth A",3.38
+HIST 170,US History to 1877-ACP,"Lan, You",
+HIST 171,US History to 1877,"Kumasenu, George X",3.68
+HIST 171,US History to 1877,"Lan, You",3.66
+HIST 171,US History to 1877,"Warner, Sophia A",
+HIST 172,US History Since 1877,"Thomas, Andrew T",
+HIST 173,US History Since 1877-ACP,"Lawton, Bishop W",
+HIST 173,US History Since 1877-ACP,"Wallis, Benjamin",
+HIST 199,HIST at IL and You,"Natale, Marisa G",3.53
+HIST 200,Intro Hist Interpretation,"Crane, William M",
+HIST 200,Intro Hist Interpretation,"Jaimes, Marco",
+HIST 200,Intro Hist Interpretation,"LaPier, Rosalyn R",
+HIST 200,Intro Hist Interpretation,"Mumford, Kevin",
+HIST 202,American Environmental History,"Duncan, Heather E",3.02
+HIST 202,American Environmental History,"Vaughn, Taryn K",3.4
+HIST 203,Reacting to the Past,"Reagan, Leslie J",
+HIST 205,Lived Experience Latin America,"Brosseder, Claudia R",3.86
+HIST 209,World War II,"Djordjevic, Stefan",3.77
+HIST 209,World War II,"Kumasenu, George X",3.92
+HIST 212,History of Eastern Africa,"Brennan, James R",3.76
+HIST 220,Traditional China,"Pu, Yujie",3.89
+HIST 236,Madness and Modern Society,"Meinel, Cade",3.46
+HIST 236,Madness and Modern Society,"Runnels, Nathan",3.45
+HIST 241,History of Ancient Rome,"Meinel, Cade",
+HIST 241,History of Ancient Rome,"Pederson, Lance P",3.72
+HIST 251,Warfare Milit Insts & Soc,"Lynn, John A",
+HIST 253,Enlightenment to Existentialsm,"Chettiar, Teri A",3.64
+HIST 255,British Isles to 1688,"Duncan, Heather E",3.79
+HIST 258,20thC World to Midcentury,"Jaimes, Marco",3.87
+HIST 259,20thC World from Midcentury,"Abosch, Elizabeth A",3.47
+HIST 262,Zionism: A Global History,"Abou Abdallah, Marc",3.59
+HIST 263,US History of Medicine,"Rodriguez, Daniel A",
+HIST 263,US History of Medicine,"Runnels, Nathan",3.56
+HIST 269,Jewish History Since 1700,"Strakhova, Anastasiia",3.62
+HIST 273,Illinois History,"Froiland, Samuel D",3.44
+HIST 274,"US Foreign Relations, 1917-","Mandala, Ruth V",3.36
+HIST 276,"African American Hist, 1877-","Cha-Jua, Sundiata",
+HIST 276,"African American Hist, 1877-","Mumford, Kevin",2.02
+HIST 277,Encounters in Native America,"Alarcon Olivos, Marcos Gi",3.35
+HIST 278,Native American History,"Sagonda, Vongai O",3.67
+HIST 280,Caribbean Latina/o Migration,"Quinones-Rivera, Maritza",3.45
+HIST 281,Constructing Race in America,"Mumford, Kevin",3.24
+HIST 281,Constructing Race in America,"Pederson, Lance P",3.74
+HIST 281,Constructing Race in America,"Polanski, Julian N",3.68
+HIST 283,Asian American History,"Espiritu, Augusto F",3.07
+HIST 293,The President and the People,"Crane, William M",3.44
+HIST 300,Topics in Film and History,"Cha-Jua, Sundiata",
+HIST 307,History of Mexico from 1519,"Brosseder, Claudia R",3.83
+HIST 312,Immigrant America,"Espiritu, Augusto F",3.21
+HIST 317,Birth of US Empire,"Asaka, Ikuko",3.46
+HIST 335,Middle East 1566-1914,"Goffman, Laura F",3.63
+HIST 337,Middle East Since World War I,"Goffman, Laura F",
+HIST 346,The Age of the Renaissance,"Djordjevic, Stefan",3.63
+HIST 352,Europe in the World,"Whittington, Anna M",3.38
+HIST 361,Euro Thght & Soc Since 1789,"Jaimes, Marco",3.12
+HIST 365,Fict & Historical Imagination,"Jaimes, Marco",3.41
+HIST 374,Civil War and Reconstruction,"Diaz, Maria A",3.56
+HIST 381,Urban History,"Burgos, Adrian",3.8
+HIST 386,Public History,"Rand, Jacki T",
+HIST 392,The 1960s in the U.S.,"Reagan, Leslie J",3.46
+HIST 394,Hidden Political Figures,"Barrett, Marsha E",
+HIST 405,History of Brazil from 1808,"Fruhauf Garcia, Elisa",3.61
+HIST 420,China Under the Qing Dynasty,"Pu, Yujie",
+HIST 461,Russia- Peter the Great to Rev,"Randolph, John W",3.55
+HIST 462,Soviet Union Since 1917,"Whittington, Anna M",3.42
+HIST 488,The American Political Divide,"Beck, David R",
+HIST 492,Historiography and Methodology,"Brosseder, Claudia R",
+HIST 498,Research & Writing Seminar,"Asaka, Ikuko",
+HIST 498,Research & Writing Seminar,"Baul, Deepasri",
+HIST 498,Research & Writing Seminar,"Beck, David R",
+HIST 502,Prob in Comp History,"Symes, Carol L",
+HIST 502,Prob in Comparative History,"Wilson, Roderick I",
+HIST 521,Research Seminar: China,"Shao, Dan",
+HIST 572,Prob in US Hist Since 1815,"Burgos, Adrian",
+HIST 572,Prob in US Hist Since 1815,"Diaz, Maria A",
+HIST 594,Intro Historical Writing,"Hoganson, Kristin L",
+IS 100,Exploring the iSchool,"Kittl, Kiona M",3.68
+IS 100,Exploring the iSchool,"Lehman, Lauryn G",3.86
+IS 101,Intro to Information Sciences,"Pintar, Judith A",3.86
+IS 142,Social Hist. of Games & Gaming,"Dubin, David S",3.69
+IS 145,Mapping Inequalities,"Batzloff, Brandon",3.8
+IS 145,Mapping Inequalities,"Mussulman, David E",3.36
+IS 200,Career Exploration,"Ellis, Michelle D",3.98
+IS 202,Social Aspects Info Tech,"Darch, Peter T",3.8
+IS 202,Social Aspects Info Tech,"Sanfilippo, Madelyn R",3.67
+IS 202,Social Aspects Info Tech,"Sun, Meicen",3.67
+IS 203,Analytical Fndts Info Problems,"Batzloff, Brandon",3.53
+IS 204,Research Design Info Sciences,"Besser, Stephanie A",3.92
+IS 204,Research Design Info Sciences,"Kendall, Lori S",3.7
+IS 204,Research Design Info Sciences,"LaRue, Elizabeth M",3.28
+IS 204,Research Design Info Sciences,"Magee, Rachel M",3.81
+IS 205,Program for Info Problems,"Wickes, Elizabeth D",3.63
+IS 206,Intro Database Concepts & Apps,"Evans, Craig S",3.68
+IS 206,Intro Database Concepts & Apps,"Mussulman, David E",3.62
+IS 226,Introduction to HCI,"Adler, Rachel",3.87
+IS 226,Introduction to HCI,"Huang, Yun",3.63
+IS 226,Introduction to HCI,"MacMullen, Thomas C",
+IS 226,Introduction to HCI,"Park, Hyanghee",3.42
+IS 229,Web Design Fundamentals,"MacMullen, Thomas C",3.85
+IS 234,Intro to Risk & Cybersecurity,"Saebeler, Dominic J",3.82
+IS 236,User Research & Evaluation,"Lueg, Christopher P",3.49
+IS 266,Community Innovation,"Chan, Anita",3.15
+IS 304,Advanced Research Design,"Chen, Jiangping",
+IS 305,Program for Info Problems II,"Wickes, Elizabeth D",3.58
+IS 308,"Race, Gender, and Info Tech","McLellan, Amanda H",3.98
+IS 308,"Race, Gender, and Info Tech","Mussulman, David E",3.56
+IS 309,Computers and Culture,"Duffy, Damian S",3.86
+IS 310,Computing in the Humanities,"LeBlanc, Zoe G",3.56
+IS 310,Computing in the Humanities,"Li, Zilu",3.73
+IS 310,Computing in the Humanities,"Sayuno, Cheeno",
+IS 312,Reading and Writing Data,"Monroe, Owen S",
+IS 316,Design of Usable Interfaces,"Lueg, Christopher P",3.48
+IS 327,Concepts of Machine Learning,"Bosch, Nigel",3.72
+IS 327,Concepts of Machine Learning,"Liu, Yaoyao",3.92
+IS 327,Concepts of Machine Learning,"Lourentzou, Ismini",3.79
+IS 327,Concepts of Machine Learning,"Ma, Jiaqi",3.5
+IS 327,Concepts of Machine Learning,"Zhang, Yang",3.78
+IS 340,Project Management,"Alicea, Bradly J",3.22
+IS 357,Intro to Data Storytelling,"Miller, Bradley B",3.86
+IS 364,Privacy and Info Technology,"Bashir, Masooda N",3.63
+IS 370,Concepts of Behavioral Theory,"Ocepek, Melissa G",2.43
+IS 380,Consulting for Info Pros,"Song, Yoo-Seong",3.96
+IS 381,Intro to Literacies for Youth,"Alteri, Suzan",3.81
+IS 390,Blockchain and Society,"Rusch, Adam P",
+IS 390,Decision Analysis and Modeling,"Dubin, David S",3.46
+IS 390,"Race, Gender, Sex in Comics","Tilley, Carol L",
+IS 400,Colloquium,"Torvik, Vetle I",
+IS 401,Intro to Network Systems,"Wolske, Martin B",3.32
+IS 403,Children's Materials,"Betts-Green, Crystal D",3.88
+IS 407,Introduction to Data Science,"Besser, Stephanie A",3.92
+IS 407,Introduction to Data Science,"Hendricks, Renee M",
+IS 407,Introduction to Data Science,"Seo, JooYoung",3.86
+IS 409,Web Technologies & Techniques,"Rusch, Adam P",3.66
+IS 410,Storytelling,"Comstock, Sharon L",3.73
+IS 413,Teen Materials,"Betts-Green, Crystal D",3.84
+IS 418,Community Engagement,"Knutson, Ellen M",3.84
+IS 419,Entrepreneurial IT Design,"LaRue, Elizabeth M",
+IS 420,Community Informatics,"Wolske, Martin B",
+IS 423,Early Literacy,"Stier, Zachary L",
+IS 426,Museum Informatics,"Twidale, Michael B",
+IS 429,Web Content Strategy and Manag,"MacMullen, Thomas C",3.78
+IS 430,Foundations Info Processing,"Trainor, Kevin",3.79
+IS 439,Web Devel Using App Framwrk,"Trainor, Kevin",
+IS 445,Data Visualization,"Besser, Stephanie A",3.95
+IS 445,Data Visualization,"Naiman, Jill P",3.78
+IS 445,Data Visualization,"Turk, Matthew J",3.84
+IS 451,Bibliography of Africa,"Batoma, Atoma T",
+IS 453,Info Books & Resources Youth,"Diekman, Linda M",3.95
+IS 455,Database Design & Prototyping,"Choi, Kahyun",3.84
+IS 455,Database Design & Prototyping,"Rahman, Nayem",3.65
+IS 455,Database Design & Prototyping,"Trainor, Kevin",3.87
+IS 455,Database Design & Prototyping,"Zhang, Yang",3.87
+IS 457,Data Storytelling,"McDowell, Kathleen",3.72
+IS 457,Data Storytelling,"Naiman, Jill P",3.96
+IS 461,REEES Bibliog Research Methods,"Condill, Christopher M",
+IS 464,Information Assurance,"Bashir, Masooda N",
+IS 467,Ethics & Policy for Data Scien,"Darch, Peter T",3.73
+IS 467,Ethics & Policy for Data Scien,"Tibebu, Haileleol",3.95
+IS 471,Instruc Strat Tech Info Prof,"Wong, Melissa A",3.93
+IS 477,"Data Mgmt, Curation, & Reprodu","Ludaescher, Bertram",3.89
+IS 491,Asian American Youth Lit,"Dahlen, Sarah P",
+IS 494,Applied Business Research,"Song, Yoo-Seong",
+IS 497,Database Admin & Scaling,"Weible, John D",3.91
+IS 497,Market Analytics for Info Prof,"Moss, Christy L",
+IS 501,Reference and Info Services,"Alvarez, Barbara A",3.76
+IS 501,Reference and Info Services,"Hensley, Merinda K",3.94
+IS 501,Reference and Info Services,"Holba Puacz, Jeanne T",
+IS 501,Reference and Info Services,"Wong, Melissa A",3.9
+IS 501,Reference and Info Services,"Woodard, Beth S",3.83
+IS 504,Sociotechnical Info Systems,"Guo, Yue",3.75
+IS 504,Sociotechnical Info Systems,"Rusch, Adam P",3.97
+IS 504,Sociotechnical Info Systems,"Twidale, Michael B",3.89
+IS 505,Info Org and Access,"Alvarez, Barbara A",3.77
+IS 505,Info Org and Access,"Knox, Emily J",3.94
+IS 505,Info Org and Access,"LaRue, Elizabeth M",3.69
+IS 505,Info Org and Access,"Maemura, Emily",3.96
+IS 505,Info Org and Access,"Myers, Christina M",3.95
+IS 505,Info Org and Access,"Wagner, Travis L",3.97
+IS 505,Info Org and Access,"Wickett, Karen M",3.84
+IS 507,"Data, Stat, and Info","Torvik, Vetle I",3.85
+IS 507,"Data, Stat, and Info","Wang, Haohan",3.84
+IS 507,"Data, Stat, and Info","Wang, Yang",3.78
+IS 510,Libraries Info and Society,"Bonn, Maria S",3.75
+IS 510,Libraries Info and Society,"Carvalho do Ama, Janaynne",
+IS 510,Libraries Info and Society,"Dahlen, Sarah P",3.86
+IS 510,Libraries Info and Society,"Mak, Bonnie",3.82
+IS 510,Libraries Info and Society,"Martaus, Alaine",3.76
+IS 510,Libraries Info and Society,"Ocepek, Melissa G",3.88
+IS 510,Libraries Info and Society,"Renear, Allen H",
+IS 510,Libraries Info and Society,"Rhinesmith, Colin H",3.81
+IS 514,Applied Business Research,"Song, Yoo-Seong",
+IS 515,Information Modeling,"Wickett, Karen M",3.86
+IS 515,Information Modeling,"Zheng, Heng",
+IS 517,Methods of Data Science,"Hendricks, Renee M",3.72
+IS 517,Methods of Data Science,"Wang, Yang",3.82
+IS 519,Research Design in IS,"Underwood, William E",
+IS 523,Preserving Info Resources,"Teper, Jennifer H",3.61
+IS 524,Data Governance,"Sanfilippo, Madelyn R",3.97
+IS 525,Data Warehousing and BI,"Wonderlich, Michael C",3.86
+IS 527,Network Analysis,"Ma, Jiaqi",
+IS 530,Collection Development,"Barnhart, Anne C",
+IS 530,Collection Development,"Holba Puacz, Jeanne T",3.94
+IS 530,Collection Development,"Reyes, Betsaida M",3.85
+IS 532,School Library Management,"Shasteen, Ruth H",3.92
+IS 534,Information Consulting,"Charles, David S",
+IS 534,Information Consulting,"Song, Yoo-Seong",3.98
+IS 537,Theory & Prct of Data Cleaning,"Ludaescher, Bertram",3.96
+IS 537,Theory & Prct of Data Cleaning,"Willis, Craig A",
+IS 541,Copyright for Info Professions,"Benson, Sara R",3.89
+IS 542,Research and Inquiry for Youth,"Diekman, Linda M",3.96
+IS 543,Digital Preservation,"Maemura, Emily",3.79
+IS 543,Digital Preservation,"Oliver, Megan A",3.89
+IS 543,Digital Preservation,"Wagner, Travis L",3.86
+IS 544,Adm Mgt of Libs Info Centers,"McCallon, Mark",3.95
+IS 547,Foundations of Data Curation,"Willis, Craig A",
+IS 551,Youth Services Librarianship,"Maimone, Jessie M",
+IS 551,Youth Services Librarianship,"Tilley, Carol L",3.81
+IS 557,Appd Machine Learn: Team Proj,"Lourentzou, Ismini",
+IS 562,Adm and Use Archival Materials,"Salrin, Melissa M",
+IS 562,Adm and Use Archival Materials,"Schwartz, Scott W",
+IS 563,Adult Popular Literature,"Lucht, Karla S",
+IS 563,Comics: Advising Readers,"Tilley, Carol L",
+IS 563,Reviewing Children's Lit,"Quealy, Kathryn L",
+IS 565,Cataloging for School Libs,"Shasteen, Ruth H",
+IS 567,Text Mining,"Kilicoglu, Halil",3.88
+IS 567,Text Mining,"Wang, Hsin-Yuan",
+IS 568,Accessibility in HCI Seminar,"Seo, JooYoung",
+IS 571,Children's Programming,"Mitchell, Anna E",3.71
+IS 571,Info Service for Diverse Users,"Alvarez, Barbara A",
+IS 571,Info Service for Diverse Users,"Knutson, Ellen M",3.94
+IS 571,"Literacy, Reading, and Readers","Schwebel, Sara L",
+IS 573,Community Archives,"Cain, Patrick R",
+IS 573,"Doc, Collect, and Appraisal","Abney, Ann C",
+IS 573,Intro Cultural Heritage Coll,"Deacy-Quinn, Christa L",3.68
+IS 573,Preservation Museum Artifacts,"Deacy-Quinn, Christa L",
+IS 577,Data Mining,"He, Jing Rui",3.79
+IS 577,Data Mining,"Torvik, Vetle I",3.92
+IS 578,Intro to Digital Humanities,"Cordell, Ryan C",3.61
+IS 580,Information History,"Mak, Bonnie",3.75
+IS 581,Digital Citizenship and Ethics,"Mattson, Kristen M",
+IS 581,Ed Tech and Youth,"Mattson, Kristen M",
+IS 581,Foundations of Media Literacy,"Mattson, Kristen M",3.92
+IS 581,Instruct Strat for Media Lit,"Mattson, Kristen M",
+IS 582,Academic Librarianship,"Hensley, Merinda K",
+IS 582,Academic Librarianship,"Hinchliffe, Lisa J",3.94
+IS 582,Academic Librarianship,"Wong, Melissa A",3.84
+IS 582,Legal Issues Lib Info Managers,"Lipinski, Tomas A",
+IS 582,Library Social Work,"Johnson, Sarah",
+IS 582,Rare Books and Special Collect,"Dankert, Rachel",3.95
+IS 582,Rare Books and Special Collect,"Oliver, Megan A",3.68
+IS 582,Rare Books and Special Collect,"Vincler, John M",
+IS 582,Student Success Librarianship,"Emerson, Maria E",
+IS 582,Theological Librarianship,"Berryhill, Carisse M",
+IS 583,Book as a Physical Object,"Berger, Sidney E",3.32
+IS 583,BookLab: Print to Programming,"Cordell, Ryan C",3.67
+IS 583,History of the Book,"Mak, Bonnie",3.73
+IS 583,Print Culture & Material Book,"Vincler, John M",3.94
+IS 584,Int. Freedom and Censorship,"Knox, Emily J",
+IS 585,Bibliographic Metadata,"Bothmann, Robert L",3.84
+IS 585,Bibliographic Metadata,"Oberg, Steven J",3.92
+IS 590,Causal Inference Mach Learning,"Bosch, Nigel",
+IS 591,Adv Copyright for Info Prof,"Benson, Sara R",
+IS 591,Data-Driven Prac Libraries,"Goek, Sara",
+IS 591,E-Learning,"Wong, Melissa A",
+IS 591,Music Librarianship,"Johnson, Kirstin D",
+IS 591,Public Library Partnerships,"Stier, Zachary L",
+IS 592,Grant Writing for Libraries,"Craig, Anne",
+IS 592,Grant Writing for Libraries,"Egan, Karen J",3.9
+IS 592,Public Librarianship,"Holba Puacz, Jeanne T",3.96
+IS 592,State Libraries and Consortia,"Craig, Anne",
+IS 593,AV Materials Libs & Archives,"Jones, Jimi L",3.96
+IS 593,Archiving the Web,"Maemura, Emily",
+IS 593,Presv & Consv Spec Colls Care,"Teper, Jennifer H",
+IS 594,Change Catalysts: Adapt/Perish,"Charles, David S",
+IS 594,Eval & Assess of Libr Services,"Hinchliffe, Lisa J",
+IS 594,Financial Mgmt of Libraries,"Besser, Stephanie A",3.86
+IS 594,Government Information,"Hallett, Karen D",
+IS 595,Adv Bibliographic Metadata,"Lopez, Mark A",
+IS 596,Designing Intelligent Systems,"Chin, Jessie",
+IS 596,Global Health Informatics,"Brooks, Ian S",
+IS 597,Data Structures & Algorithms,"Weible, John D",
+IS 597,Human Centered Data Science,"Wang, Dong",
+IS 597,Machine Learning Cloud,"Tibebu, Haileleol",
+IS 597,Machine Learning Cloud,"Trainor, Kevin",3.81
+IS 597,Progr. & Quality in Analytics,"Weible, John D",3.66
+IS 597,Trustworthy Machine Learning,"Wang, Haohan",
+MATH 101,Thinking Mathematically,"Dobbs, Theresa M",2.91
+MATH 103,Theory of Arithmetic,"Pinto, Anisha Adolphus",3.01
+MATH 112,Algebra,"Dobbs, Theresa M",3.22
+MATH 112,Algebra,"Placzek, Laura E",2.86
+MATH 115,Preparation for Calculus,"Placzek, Laura E",2.73
+MATH 117,Elementary Mathematics,"Dobbs, Theresa M",
+MATH 124,Finite Mathematics,"Arbelo Ramos, Jose P",2.55
+MATH 124,Finite Mathematics,"Ebel, Sterling",2.81
+MATH 124,Finite Mathematics,"Gallardo, David",
+MATH 124,Finite Mathematics,"Khawaja, Arhum N",3.1
+MATH 181,A Mathematical World,"Reddy, Alison",3.14
+MATH 199,Merit for MATH 115,"Goldman-Nagel, Abigail H",
+MATH 199,Merit for MATH 285,"Kang, Wonwoo",
+MATH 199,Merit for Math 115,"Kamel, Yigal",3.86
+MATH 199,Merit for Math 115,"Schideman, Katrina E",3.64
+MATH 199,Merit for Math 285,"Song, Zhuo Qun",3.65
+MATH 213,Basic Discrete Mathematics,"Bodish, Holt W",3.56
+MATH 213,Basic Discrete Mathematics,"Castle, Benjamin T",3.16
+MATH 213,Basic Discrete Mathematics,"Hardt, Andrew B",3.39
+MATH 213,Basic Discrete Mathematics,"Rasmussen, Jacob A",3.26
+MATH 220,Calculus,"Genlik, Deniz",2.58
+MATH 220,Calculus,"Srikant, Jenny J",2.49
+MATH 220,Calculus,"Whittlesey, Kim",2.1
+MATH 221,Calculus I,"Petrickova, Sarka",3.08
+MATH 221,Calculus I,"Whittlesey, Kim",2.95
+MATH 225,Introductory Matrix Theory,"Albin, Pierre",
+MATH 225,Introductory Matrix Theory,"Bradlow, Steven B",2.66
+MATH 227,Linear Algebra for Data Sci,"Petrickova, Sarka",3.44
+MATH 231,Calculus II,"Bahreini Esfaha, Manijeh",3.09
+MATH 231,Calculus II,"Guo, Meng",3.16
+MATH 231,Calculus II,"La Nave, Gabriele",3.25
+MATH 231,Calculus II,"Wang, Yi",3.35
+MATH 231,Calculus II,"Yu, Xinran",
+MATH 234,Calculus for Business I,"Dobbs, Theresa M",3.04
+MATH 241,Calculus III,"Ahlgren, Scott D",3.14
+MATH 241,Calculus III,"Dunfield, Nathan M",3.58
+MATH 241,Calculus III,"Heller, Jeremiah B",2.62
+MATH 241,Calculus III,"Ivanov, Sergei V",3.08
+MATH 241,Calculus III,"Klajbor-Goderic, Stefanie",2.77
+MATH 241,Calculus III,"Petrickova, Sarka",3.06
+MATH 241,Calculus III,"Sowers, Richard B",2.55
+MATH 241,Calculus III,"Stojanoska, Vesna",2.8
+MATH 241,Calculus III,"Tolman, Susan",3.04
+MATH 257,Linear Algebra w Computat Appl,"Chuang, Jer-Chin",3.15
+MATH 257,Linear Algebra w Computat Appl,"Hirani, Anil N",3.11
+MATH 257,Linear Algebra w Computat Appl,"Leditzky, Felix",3.21
+MATH 257,Linear Algebra w Computat Appl,"Luecke, Kiran D",3.23
+MATH 257,Linear Algebra w Computat Appl,"Nawaz, Tayyab",3.23
+MATH 285,Intro Differential Equations,"Cavey, Ian R",3.59
+MATH 285,Intro Differential Equations,"Clifton, Olivia C",3.52
+MATH 285,Intro Differential Equations,"Hung, Pei Ken",3.5
+MATH 285,Intro Differential Equations,"Manfroi, Aldo J",3.48
+MATH 299,Topics in Mathematics,"La Nave, Gabriele",3.24
+MATH 314,Intro Higher Math,"Dodd, Christopher S",3.42
+MATH 347,Fundamental Mathematics,"Bodish, Holt W",3.6
+MATH 347,Fundamental Mathematics,"Dutta, Sankar P",2.54
+MATH 347,Fundamental Mathematics,"Fernando, Ravi K",3.38
+MATH 347,Fundamental Mathematics,"Ford, Kevin",3.43
+MATH 347,Fundamental Mathematics,"Hildebrand, A J",3.47
+MATH 347,Fundamental Mathematics,"Ji, Lena M",3.1
+MATH 347,Fundamental Mathematics,"Jiang, Yucong",3.31
+MATH 347,Fundamental Mathematics,"Kutzarova-Ford, Denka N",3.52
+MATH 347,Fundamental Mathematics,"Spinoza, Hannah R",3.52
+MATH 402,Non Euclidean Geometry,"Chen, Eric C",3.19
+MATH 402,Non Euclidean Geometry,"Zeiser, Florian M",3.46
+MATH 403,Euclidean Geometry,"Mortensen, Karen P",3.6
+MATH 403,Euclidean Geometry,"Zharnitsky, Vadim",3.16
+MATH 412,Graph Theory,"Dhawan, Abhishek",3.19
+MATH 412,Graph Theory,"Kostochka, Alexandr V",3.19
+MATH 413,Intro to Combinatorics,"Yong, Alexander N",3.35
+MATH 415,Applied Linear Algebra,"Chen, William Y",2.91
+MATH 415,Applied Linear Algebra,"Kirr, Eduard-Wilhelm",3.01
+MATH 416,Abstract Linear Algebra,"Chuang, Jer-Chin",3.15
+MATH 416,Abstract Linear Algebra,"Di Francesco, Philippe",3.34
+MATH 416,Abstract Linear Algebra,"Fernando, Ravi K",3.21
+MATH 416,Abstract Linear Algebra,"Kerman, Ely",2.51
+MATH 416,Abstract Linear Algebra,"Lerman, Eugene M",3.37
+MATH 416,Abstract Linear Algebra,"Maitra, Neeladri",3.45
+MATH 416,Abstract Linear Algebra,"Palmer, Joseph A",2.91
+MATH 416,Abstract Linear Algebra,"Yu, Polly W",3.04
+MATH 417,Intro to Abstract Algebra,"Gabdullin, Mikhail",2.74
+MATH 417,Intro to Abstract Algebra,"Janda, Felix",2.91
+MATH 417,Intro to Abstract Algebra,"Jiang, Yucong",3.02
+MATH 417,Intro to Abstract Algebra,"Loja Fernandes, Rui A",3.14
+MATH 417,Intro to Abstract Algebra,"Pascaleff, James",
+MATH 418,Intro to Abstract Algebra II,"Hardt, Andrew B",3.35
+MATH 424,Honors Real Analysis,"Erdogan, Mehmet B",3.46
+MATH 424,Honors Real Analysis,"Young, Amanda M",3.49
+MATH 425,Honors Advanced Analysis,"Erdogan, Mehmet B",
+MATH 427,Honors Abstract Algebra,"Lerman, Eugene M",3.42
+MATH 432,Set Theory and Topology,"Song, Renming",3.01
+MATH 441,Differential Equations,"Clark, Carrie J",3.25
+MATH 441,Differential Equations,"DeVille, Lee X",3.16
+MATH 441,Differential Equations,"Keating, David A",3.2
+MATH 441,Differential Equations,"Rapti, Zoi",2.62
+MATH 441,Differential Equations,"Tzirakis, Nikolaos",3.07
+MATH 442,Intro Partial Diff Equations,"Cho, Soobin",3.2
+MATH 442,Intro Partial Diff Equations,"Kirr, Eduard-Wilhelm",
+MATH 444,Elementary Real Analysis,"Hinkkanen, Aimo H",3.12
+MATH 444,Elementary Real Analysis,"Li, Xiaochun",3.39
+MATH 444,Elementary Real Analysis,"Nie, Zipei",3.26
+MATH 444,Elementary Real Analysis,"Thorner, Jesse A",3.15
+MATH 444,Elementary Real Analysis,"Zhang, Hao",3.54
+MATH 446,Applied Complex Variables,"Nikolaev, Igor G",3.04
+MATH 447,Real Variables,"DeVille, Lee X",3.66
+MATH 447,Real Variables,"Oikhberg, Timur",3.22
+MATH 448,Complex Variables,"Tumanov, Alexander E",
+MATH 453,Number Theory,"Liu, Yuan",3.54
+MATH 453,Number Theory,"Wang, Yi",3.22
+MATH 453,Number Theory,"Zaharescu, Alexandru",3.58
+MATH 461,Probability Theory,"Song, Renming",2.49
+MATH 466,Applied Random Processes,"Cho, Soobin",
+MATH 481,Vector and Tensor Analysis,"Dey, Partha S",
+MATH 481,Vector and Tensor Analysis,"Hinkkanen, Aimo H",
+MATH 482,Linear Programming,"Dhawan, Abhishek",3.02
+MATH 482,Linear Programming,"Wigal, Michael C",3.23
+MATH 484,Nonlinear Programming,"Bradshaw, Peter",3.42
+MATH 495,Models in Mathematical Biology,"Cooney, Daniel B",3.69
+MATH 500,Abstract Algebra I,"Dunfield, Nathan M",
+MATH 500,Abstract Algebra I,"Rezk, Charles W",3.67
+MATH 501,Abstract Algebra II,"Mineyev, Igor",
+MATH 511,Intro to Algebraic Geometry,"Cavey, Ian R",
+MATH 519,Differentiable Manifolds II,"Loja Fernandes, Rui A",
+MATH 522,Lie Groups and Lie Algebras I,"Haboush, William J",
+MATH 525,Algebraic Topology I,"Pascaleff, James",
+MATH 527,Homotopy Theory,"Rezk, Charles W",3.96
+MATH 530,Algebraic Number Theory,"Liu, Yuan",
+MATH 532,Analytic Theory of Numbers II,"Thorner, Jesse A",
+MATH 540,Real Analysis,"Gabdullin, Mikhail",3.22
+MATH 540,Real Analysis,"Oikhberg, Timur",3.73
+MATH 541,Functional Analysis,"Kutzarova-Ford, Denka N",
+MATH 542,Complex Variables I,"Laugesen, Richard S",3.62
+MATH 550,Dynamical Systems I,"Bronski, Jared C",
+MATH 553,Partial Differential Equations,"Tzirakis, Nikolaos",
+MATH 561,Theory of Probability I,"Wu, Xuan",
+MATH 585,Probabilistic Combinatorics,"Methuku, Abhishek",
+MATH 595,Exponential Sums,"Zaharescu, Alexandru",
+MATH 595,Floer Theory With Applications,"Kerman, Ely",
+MATH 595,Integers and Permutations,"Ford, Kevin",
+MATH 595,Optimum Control Systems,"Liberzon, Daniel M",
+MATH 595,Stochastic Processes on Graphs,"Dey, Partha S",
+MATH 595,String Theory fr Mathematician,"Katz, Sheldon",
+PHIL 100,Intro to Philosophy-ACP,"Rowe, James F",
+PHIL 100,Intro to Philosophy-ACP,"Tobias, Zachary D",3.13
+PHIL 101,Introduction to Philosophy,"Ben Moshe, Nir",3.1
+PHIL 101,Introduction to Philosophy,"Ewing, James",3.08
+PHIL 101,Introduction to Philosophy,"Rowe, James F",3.3
+PHIL 102,Logic and Reasoning,"Thomas, Derek R",
+PHIL 103,Logic and Reasoning QR II,"Ewing, James",
+PHIL 103,Logic and Reasoning QR II,"York, Ian",2.82
+PHIL 104,Intro to Ethics-ACP,"Bojanowski, Jochen",3.42
+PHIL 105,Introduction to Ethics,"Durso, Daniel",3.85
+PHIL 105,Introduction to Ethics,"Smith, Andrew L",3.53
+PHIL 106,Ethics and Social Policy,"Lopez Romero, Ana Itzel",3.65
+PHIL 107,Intro to Political Philosophy,"Biondi, Zachary",3.35
+PHIL 201,Philosophy in Literature,"Ben Moshe, Nir",3.53
+PHIL 202,Symbolic Logic,"Livengood, Jonathan M",3.44
+PHIL 202,Symbolic Logic,"Nowakowski, Paul",3.35
+PHIL 203,Ancient Philosophy,"Jensen, Erik R",3.54
+PHIL 203,Ancient Philosophy,"Sanders, Kirk",2.96
+PHIL 206,Early Modern Philosophy,"Weinberg, Shelley E",3.22
+PHIL 219,"Phil of Class, Gender, & Race","Erlenbusch-Ande, Verena",
+PHIL 222,Philosophical Foundations CS,"Kishida, Kohei",3.72
+PHIL 223,Minds & Machines,"Scharp, Kevin A",3.12
+PHIL 250,Conceptions of Human Nature,"Durso, Daniel",3.49
+PHIL 380,Current Controversies,"Kerr, Alison D",
+PHIL 380,Current Controversies,"Schwenkler, John L",3.48
+PHIL 410,Classican Ancient Philosophers,"Biondi, Zachary",
+PHIL 411,Nineteenth Century Philosophy,"Ben Moshe, Nir",
+PHIL 412,Classical Modern Philosophers,"Weinberg, Shelley E",
+PHIL 421,Ethical Theories,"Biondi, Zachary",3.36
+PHIL 424,Philosophy of Religion,"Weaver, Christopher G",
+PHIL 425,Philosophy of Mind,"Schwenkler, John L",3.49
+PHIL 426,Metaphysics,"Saenz, Noel B",3.22
+PHIL 426,Metaphysics,"Weaver, Christopher G",
+PHIL 430,Theory of Knowledge,"Livengood, Jonathan M",3.72
+PHIL 439,Philosophy of Mathematics,"Kishida, Kohei",
+PHIL 440,Ethics of AI,"Biondi, Zachary",2.82
+PHIL 441,Existential Philosophy,"Byrne, Thomas",3.48
+PHIL 442,The AI Revolution,"Scharp, Kevin A",3.33
+PHIL 443,Phenomenology,"Byrne, Thomas",
+PHIL 454,Advanced Symbolic Logic,"Scharp, Kevin A",3.2
+PHIL 460,Philosophy of Statistics,"Livengood, Jonathan M",
+PHIL 477,Philosophy of Psychology,"Livengood, Jonathan M",3.75
+PHIL 499,Capstone Seminar,"Biondi, Zachary",
+PHIL 499,Capstone Seminar,"Varden, Helga",
+PHIL 501,Seminar History of Philosophy,"Varden, Helga",
+PHIL 511,Seminar Ethical Theory,"Schwenkler, John L",
+PHIL 521,Seminar Contemporary Problems,"Scharp, Kevin A",
+RHET 102,Principles of Research,"Canipe, Joshua",
+RHET 102,Principles of Research,"Flanagan, Ryan P",
+RHET 102,Principles of Research,"Gaffney, Katherine A",
+RHET 102,Principles of Research,"Gunter, Mark C",
+RHET 102,Principles of Research,"Hays, Mary L",
+RHET 102,Principles of Research,"Hurley, Michael J",
+RHET 102,Principles of Research,"Lee, Jennifer A",
+RHET 102,Principles of Research,"McDuffie, Kristi R",
+RHET 102,Principles of Research,"McVicker, Zachariah P",
+RHET 102,Principles of Research,"Odom, Michael J",
+RHET 102,Principles of Research,"Williard, Jess M",
+RHET 105,Writing and Research,"Anthony, Cora C",
+RHET 105,Writing and Research,"Becker, Leah M",
+RHET 105,Writing and Research,"Bergmark, Steven M",
+RHET 105,Writing and Research,"Civello, Mitchel A",
+RHET 105,Writing and Research,"Claborn, John P",
+RHET 105,Writing and Research,"Cole, Megan E",
+RHET 105,Writing and Research,"Cottingham, Mary Rose",
+RHET 105,Writing and Research,"Demirel, Derya",
+RHET 105,Writing and Research,"Dickerson, Curtis R",
+RHET 105,Writing and Research,"Downey, Samantha G",
+RHET 105,Writing and Research,"Escamilla, Isabella Pieda",
+RHET 105,Writing and Research,"Fadely, Jonathan P",
+RHET 105,Writing and Research,"Foley, David A",
+RHET 105,Writing and Research,"Furlong, Madeline E",
+RHET 105,Writing and Research,"Giugni, Andrea C",
+RHET 105,Writing and Research,"Gomez, Trinidad C",
+RHET 105,Writing and Research,"Gupta, Pallabi",
+RHET 105,Writing and Research,"Hudek, Barry A",
+RHET 105,Writing and Research,"Infante, Malina G",
+RHET 105,Writing and Research,"Johnson, Audrey",
+RHET 105,Writing and Research,"Johnson, Carrie A",
+RHET 105,Writing and Research,"Kapczynski, Alexandria N",
+RHET 105,Writing and Research,"Kim, Yio Kyoung",
+RHET 105,Writing and Research,"Kraft, Julie K",
+RHET 105,Writing and Research,"Landes, Brian",
+RHET 105,Writing and Research,"Lindsey, Mary",
+RHET 105,Writing and Research,"Luan, Qinglin",
+RHET 105,Writing and Research,"MacLean, John P",
+RHET 105,Writing and Research,"Martin, Calgary",
+RHET 105,Writing and Research,"Matresse, Elizabeth M",
+RHET 105,Writing and Research,"McLeer, Heather A",
+RHET 105,Writing and Research,"McVeigh, Dafydd M",
+RHET 105,Writing and Research,"Mecolli, Megi",
+RHET 105,Writing and Research,"Mendoza, Evelyn G",
+RHET 105,Writing and Research,"Menendez, Katherine",
+RHET 105,Writing and Research,"Mercado, Justine L",
+RHET 105,Writing and Research,"Metz, Nathaniel M",
+RHET 105,Writing and Research,"Mier, Miranda E",
+RHET 105,Writing and Research,"Miller, David L",
+RHET 105,Writing and Research,"Morris, David",
+RHET 105,Writing and Research,"Murray, Cyrus L",
+RHET 105,Writing and Research,"Pacheco, Hilary",
+RHET 105,Writing and Research,"Pfister, Jason C",
+RHET 105,Writing and Research,"Rivera Lopez, Paola M",
+RHET 105,Writing and Research,"Runkle, Stephen A",
+RHET 105,Writing and Research,"Sellers, Edward J",
+RHET 105,Writing and Research,"Simon, Zach J",
+RHET 105,Writing and Research,"Stack, Garrett M",
+RHET 105,Writing and Research,"Stoodley, Erin H",
+RHET 105,Writing and Research,"Streitmatter, Olivia",
+RHET 105,Writing and Research,"Towner, Diana",
+RHET 105,Writing and Research,"VanCalbergh, Michael",
+RHET 105,Writing and Research,"Villanueva, Corina A",
+RHET 105,Writing and Research,"Vowels, Grace E",
+RHET 105,Writing and Research,"Weber, Rebecca",
+RHET 105,Writing and Research,"Zajdel, Carson C",
+RHET 105,Writing and Research,"Zhang, Dan",
+RHET 105,Writing and Research,"Zuniga, Isabel R",
+RHET 233,Adv Rhetoric & Composition,"Gaffney, Katherine A",
+RHET 233,Adv Rhetoric & Composition,"Gupta, Pallabi",3.8
+RHET 233,Adv Rhetoric & Composition,"Hudek, Barry A",3.59
+RHET 233,Adv Rhetoric & Composition,"Nyikos, Daniel",3.87
+STAT 100,Statistics,"Flanagan, Karle A",3.37
+STAT 100,Statistics,"Rao, V.N. Vimal",3.41
+STAT 107,Data Science Discovery,"Flanagan, Karle A",3.54
+STAT 200,Statistical Analysis,"Clement, Kit",3.52
+STAT 207,Data Science Exploration,"Deeke, Julie M",3.6
+STAT 207,Data Science Exploration,"Ellison, Victoria M",3.68
+STAT 212,Biostatistics,"Findley, Kelly P",3.56
+STAT 385,Statistics Programming Methods,"Eck, Daniel J",3.74
+STAT 385,Statistics Programming Methods,"Jia, Weijia",3.41
+STAT 385,Statistics Programming Methods,"Singh, Matthew F",3.98
+STAT 400,Statistics and Probability I,"Unger, David",3.43
+STAT 400,Statistics and Probability I,"Yu, Albert",3.48
+STAT 408,Actuarial Statistics I,"Chatterjee, Sabyasachi",3.41
+STAT 410,Statistics and Probability II,"Agterberg, Joshua S",2.68
+STAT 410,Statistics and Probability II,"Kizildag, Eren Can",3.26
+STAT 410,Statistics and Probability II,"Stepanov, Alexey G",3.15
+STAT 420,Methods of Applied Statistics,"Deeke, Julie M",3.54
+STAT 420,Methods of Applied Statistics,"Unger, David",3.82
+STAT 424,Design of Experiments,"Chronopoulou, Alexandra",3.49
+STAT 425,Statistical Modeling I,"Chronopoulou, Alexandra",3.39
+STAT 425,Statistical Modeling I,"Douglas, Jeffrey A",3.82
+STAT 425,Statistical Modeling I,"Jia, Weijia",3.54
+STAT 425,Statistical Modeling I,"Simpson, Douglas G",3.78
+STAT 425,Statistical Modeling I,"Zheng, Lili",3.52
+STAT 426,Statistical Modeling II,"Douglas, Jeffrey A",3.18
+STAT 426,Statistical Modeling II,"Jia, Weijia",3.65
+STAT 426,Statistical Modeling II,"Park, Chan",3.12
+STAT 426,Statistical Modeling II,"Yu, Ruoqi",3.31
+STAT 427,Statistical Consulting,"Chronopoulou, Alexandra",3.86
+STAT 428,Statistical Computing,"Wang, Shulei",3.5
+STAT 428,Statistical Computing,"Zhang, Susu",3.96
+STAT 429,Time Series Analysis,"Lee, Hyoeun",3.36
+STAT 430,Machine Learning w/ TimeSeries,"Lee, Hyoeun",3.89
+STAT 430,Math?l Optimization with ML,"Ellison, Victoria M",3.57
+STAT 430,Topic: Baseball Analytics,"Eck, Daniel J",3.53
+STAT 431,Applied Bayesian Analysis,"Culpepper, Steven A",3.64
+STAT 431,Applied Bayesian Analysis,"Park, Trevor H",3.78
+STAT 432,Basics of Statistical Learning,"Dayanikli, Gokce",3.58
+STAT 432,Basics of Statistical Learning,"Lee, Hyoeun",3.83
+STAT 432,Basics of Statistical Learning,"Zhu, Ruoqing",3.3
+STAT 433,Stochastic Processes,"Stepanov, Alexey G",3.51
+STAT 437,Unsupervised Learning,"Ellison, Victoria M",3.56
+STAT 440,Statistical Data Management,"Kinson, Christopher L",3.71
+STAT 443,Professional Statistics,"Glosemeyer, Darren W",3.6
+STAT 447,Data Science Prog Methods,"Eddelbuettel, Dirk",3.66
+STAT 447,Data Science Prog Methods,"Singh, Matthew F",3.95
+STAT 448,Advanced Data Analysis,"Bravo De Guenni, Lelys",3.63
+STAT 448,Advanced Data Analysis,"Glosemeyer, Darren W",2.93
+STAT 510,Mathematical Statistics,"Chronopoulou, Alexandra",3.19
+STAT 510,Mathematical Statistics,"Culpepper, Steven A",3.24
+STAT 525,Intro to Optimization with...,"Zhou, Yuchen",3.88
+STAT 528,Adv Regression Analysis II,"Eck, Daniel J",
+STAT 541,Advanced Predictive Analytics,"Quan, Zhiyu",
+STAT 542,Statistical Learning,"Liang, Feng",3.85
+STAT 542,Statistical Learning,"Liu, Jingbo",3.87
+STAT 575,Large Sample Theory,"Zhou, Yuchen",
+STAT 578,Advanced Topics in Statistical,"Chatterjee, Sabyasachi",
+STAT 578,High Dimensional Statistics,"Liu, Jingbo",
+STAT 593,STAT Internship,"Lee, Hyoeun",
