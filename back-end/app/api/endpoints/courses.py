@@ -29,7 +29,7 @@ async def get_courses(
         None, ge=0, le=5, description="Maximum difficulty level"
     ),
     page: int = Query(1, ge=1, description="Page number for pagination"),
-    limit: int = Query(20, ge=1, le=100, description="Number of items per page"),
+    limit: int = Query(20, ge=1, le=1000, description="Number of items per page"),
 ):
     """Get all courses with optional filtering"""
 
@@ -94,7 +94,7 @@ async def search_courses(
         None, description="Filter by skills (comma-separated)"
     ),
     page: int = Query(1, ge=1),
-    limit: int = Query(20, ge=1, le=100),
+    limit: int = Query(20, ge=1, le=1000),
 ):
     """Search courses by keyword or skills"""
 
