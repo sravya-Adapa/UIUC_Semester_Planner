@@ -101,7 +101,7 @@ const Login = () => {
           <label className="login-label">Illinois Email</label>
           <input
             type="email"
-            placeholder="netid@illinois.edu"
+            placeholder=" netid@illinois.edu"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="login-input"
@@ -113,7 +113,7 @@ const Login = () => {
           <label className="login-label">Password</label>
           <input
             type="password"
-            placeholder="••••••••"
+            placeholder=" Enter your password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="login-input"
@@ -131,7 +131,7 @@ const Login = () => {
             onClick={handleEmailLogin}
             disabled={loading}
           >
-            {loading ? "Signing in..." : "Email Login"}
+            {loading ? "Signing in..." : "Login"}
           </button>
           <button
             type="button"

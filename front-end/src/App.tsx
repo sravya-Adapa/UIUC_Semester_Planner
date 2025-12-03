@@ -1,7 +1,9 @@
+// src/App.tsx
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Login from "./components/Login";
 import PlannerHome from "./pages/PlannerHome";
+import CareerStep from "./pages/CareerPath";
 import ProtectedRoute from "./components/ProtectedRoute";
 import "./App.css";
 
@@ -13,15 +15,25 @@ function App() {
           {/* First page – big orange “UIUC Semester Planner” button */}
           <Route path="/" element={<Landing />} />
 
-          {/* Email/password login page (your screenshot) */}
+          {/* Email/password login page */}
           <Route path="/login" element={<Login />} />
 
-          {/* Main app – only visible after login */}
+          {/* Step 1 – Select Your Major */}
           <Route
             path="/planner"
             element={
               <ProtectedRoute>
                 <PlannerHome />
+              </ProtectedRoute>
+            }
+          />
+
+          {/* Step 2 – Choose Your Career Path */}
+          <Route
+            path="/career"
+            element={
+              <ProtectedRoute>
+                <CareerStep />
               </ProtectedRoute>
             }
           />
