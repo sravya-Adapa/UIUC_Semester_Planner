@@ -6,7 +6,7 @@ services:
     plan: free
     pythonVersion: 3.13
     buildCommand: bash build.sh
-    startCommand: gunicorn -w 4 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT back-end.main:app
+    startCommand: gunicorn -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT back-end.main:app
     envVars:
       - key: MONGODB_URL
         value: ${MONGODB_URL}
@@ -16,3 +16,5 @@ services:
         value: ${CORS_ORIGINS}
       - key: DEBUG
         value: false
+      - key: PYTHONUNBUFFERED
+        value: "true"

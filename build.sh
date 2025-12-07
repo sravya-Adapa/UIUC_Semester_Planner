@@ -1,9 +1,8 @@
 #!/bin/bash
 set -o errexit
 
-# Install Python dependencies
+echo "Upgrading pip, setuptools, and wheel..."
 pip install --upgrade pip setuptools wheel
-pip install -r back-end/requirements.txt
 
-# Optional: Run any database migrations or other setup here
-# python back-end/db_scripts/db_import.py
+echo "Installing production dependencies..."
+pip install --no-cache-dir -r back-end/requirements-prod.txt
