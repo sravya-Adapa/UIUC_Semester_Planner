@@ -1,3 +1,4 @@
+import os
 from pymongo import MongoClient
 from pymongo.collection import Collection
 from app.core.config import settings
@@ -25,7 +26,13 @@ class MongoDBClient:
         """Initialize MongoDB connection"""
         if MongoDBClient._client is None:
             try:
-                MongoDBClient._client = MongoClient(settings.MONGODB_URL)
+                # Allow a sane default for server selection/connect timeouts if not provided via URI
+                timeout_ms = int(os.getenv("MONGODB_TIMEOUT_MS", "10000"))
+                MongoDBClient._client = MongoClient(
+                    settings.MONGODB_URL,
+                    serverSelectionTimeoutMS=timeout_ms,
+                    connectTimeoutMS=timeout_ms,
+                )
                 # Test connection
                 MongoDBClient._client.admin.command("ping")
                 logger.info("Connected to MongoDB successfully")
@@ -61,14 +68,4 @@ class MongoDBClient:
             logger.info("MongoDB connection closed")
 
 
-# Initialize on module import
-def init_mongodb():
-    """Initialize MongoDB connection"""
-    try:
-        MongoDBClient.get_instance()
-    except Exception as e:
-        logger.error(f"Failed to initialize MongoDB: {str(e)}")
-        raise
-
-
-init_mongodb()
+# Do not initialize on module import to avoid fork-safety issues with pre-fork servers

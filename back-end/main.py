@@ -24,6 +24,21 @@ logger = get_logger(__name__)
 async def lifespan(app: FastAPI):
     """Handle startup and shutdown events"""
     logger.info("Application starting up...")
+    # Initialize DB per worker and log basic diagnostics
+    try:
+        MongoDBClient.get_instance()
+        try:
+            courses_col = MongoDBClient.get_collection("courses")
+            career_paths_col = MongoDBClient.get_collection("career_paths")
+            logger.info(
+                "DB diagnostics - counts: courses=%s, career_paths=%s",
+                courses_col.estimated_document_count(),
+                career_paths_col.estimated_document_count(),
+            )
+        except Exception as inner_e:
+            logger.warning("DB diagnostics failed: %s", str(inner_e))
+    except Exception as e:
+        logger.error("DB initialization failed on startup: %s", str(e))
     yield
     logger.info("Application shutting down...")
     MongoDBClient.close()
