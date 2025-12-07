@@ -70,7 +70,7 @@ class PathwayListResponse(BaseModel):
     """Response for pathway list endpoints"""
 
     success: bool = True
-    data: Dict[str, List[Dict[str, Any]]]
+    data: Dict[str, Any]
     timestamp: str
 
 
@@ -107,3 +107,20 @@ class RecommendationResult(BaseModel):
     total_credits: int
     avg_difficulty: float
     prerequisites_satisfied: bool
+
+
+# ============ Tagged Courses ============
+class TaggedCourseListResponse(BaseModel):
+    """Response for tagged courses list"""
+
+    success: bool = True
+    data: Dict[str, Any]
+    timestamp: str
+
+
+class TaggedCourseDetailResponse(BaseModel):
+    """Response for a single course's tags"""
+
+    success: bool = True
+    data: Dict[str, Any]
+    timestamp: str

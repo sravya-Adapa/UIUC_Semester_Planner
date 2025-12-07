@@ -1,5 +1,6 @@
 from typing import Optional, List, Dict, Any
 from app.core.database import MongoDBClient
+from app.utils.serialization import to_jsonable
 from app.core.logging import get_logger
 
 logger = get_logger(__name__)
@@ -41,13 +42,14 @@ class CourseService:
         # Get paginated results
         courses = list(collection.find(query).sort(sort_by, 1).skip(skip).limit(limit))
 
-        return courses, total
+        return to_jsonable(courses), total
 
     @staticmethod
     def get_course_by_id(course_id: str) -> Optional[Dict]:
         """Get a single course by ID"""
         collection = CourseService.get_collection()
-        return collection.find_one({"course_id": course_id})
+        doc = collection.find_one({"course_id": course_id})
+        return to_jsonable(doc) if doc else None
 
     @staticmethod
     def search_courses(
@@ -75,7 +77,7 @@ class CourseService:
 
         courses = list(collection.find(search_filter).skip(skip).limit(limit))
 
-        return courses, total
+        return to_jsonable(courses), total
 
     @staticmethod
     def get_prerequisites(course_id: str) -> Optional[Dict]:

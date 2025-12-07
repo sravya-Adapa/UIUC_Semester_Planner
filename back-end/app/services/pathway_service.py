@@ -1,5 +1,8 @@
 from typing import Optional, List, Dict, Any
 from app.core.database import MongoDBClient
+from app.utils.serialization import to_jsonable
+from bson import ObjectId
+from bson.errors import InvalidId
 from app.core.logging import get_logger
 
 logger = get_logger(__name__)
@@ -19,13 +22,19 @@ class PathwayService:
     def get_all_pathways() -> List[Dict]:
         """Get all pathways"""
         collection = PathwayService.get_collection()
-        return list(collection.find({}))
+        docs = list(collection.find({}))
+        return to_jsonable(docs)
 
     @staticmethod
     def get_pathway_by_id(pathway_id: str) -> Optional[Dict]:
         """Get a single pathway by ID"""
         collection = PathwayService.get_collection()
-        return collection.find_one({"_id": pathway_id})
+        try:
+            obj_id = ObjectId(pathway_id)
+        except Exception:
+            return None
+        doc = collection.find_one({"_id": obj_id})
+        return to_jsonable(doc) if doc else None
 
     @staticmethod
     def get_pathway_courses(
@@ -60,7 +69,7 @@ class PathwayService:
             if include_details:
                 # Get full course details
                 courses = list(collection.find({"course_id": {"$in": course_ids}}))
-                result["courses"][ct] = courses
+                result["courses"][ct] = to_jsonable(courses)
             else:
                 # Just return IDs
                 result["courses"][ct] = course_ids
