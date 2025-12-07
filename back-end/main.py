@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
@@ -84,7 +85,7 @@ if __name__ == "__main__":
 
     uvicorn.run(
         "main:app",
-        host=settings.SERVER_HOST,
-        port=settings.SERVER_PORT,
+        host="0.0.0.0",
+        port=int(os.getenv("PORT", settings.SERVER_PORT)),
         reload=settings.DEBUG,
     )

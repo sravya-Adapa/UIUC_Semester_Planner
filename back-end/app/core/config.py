@@ -7,18 +7,20 @@ class Settings(BaseSettings):
 
     # Server settings
     SERVER_HOST: str = "0.0.0.0"
-    SERVER_PORT: int = 8000
-    DEBUG: bool = False
+    SERVER_PORT: int = int(os.getenv("PORT", "8000"))
+    DEBUG: bool = os.getenv("DEBUG", "False").lower() == "true"
 
     # MongoDB settings
-    MONGODB_URL: str = "mongodb://localhost:27017"
-    MONGODB_DB_NAME: str = "semester_planner"
+    MONGODB_URL: str = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
+    MONGODB_DB_NAME: str = os.getenv("MONGODB_DB_NAME", "semester_planner")
 
     # Firebase settings
-    FIREBASE_CREDENTIALS_PATH: str = ""
+    FIREBASE_CREDENTIALS_PATH: str = os.getenv("FIREBASE_CREDENTIALS_PATH", "")
 
     # CORS settings
-    CORS_ORIGINS: list = ["http://localhost:5173", "http://localhost:3000"]
+    CORS_ORIGINS: list = os.getenv(
+        "CORS_ORIGINS", "http://localhost:5173,http://localhost:3000"
+    ).split(",")
 
     class Config:
         env_file = ".env"
