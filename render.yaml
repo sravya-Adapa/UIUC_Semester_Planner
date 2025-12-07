@@ -4,16 +4,15 @@ services:
     env: python
     region: oregon
     plan: free
-    buildCommand: pip install -r back-end/requirements.txt
+    pythonVersion: 3.13
+    buildCommand: bash build.sh
     startCommand: gunicorn -w 4 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT back-end.main:app
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11
       - key: MONGODB_URL
         value: ${MONGODB_URL}
       - key: MONGODB_DB_NAME
-        value: semester_planner
+        value: uiuc
       - key: CORS_ORIGINS
-        value: http://localhost:5173,http://localhost:3000
+        value: ${CORS_ORIGINS}
       - key: DEBUG
         value: false
