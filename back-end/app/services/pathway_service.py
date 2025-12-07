@@ -8,7 +8,7 @@ logger = get_logger(__name__)
 class PathwayService:
     """Service for pathway-related database operations"""
 
-    COLLECTION_NAME = "pathways"
+    COLLECTION_NAME = "career_paths"
 
     @staticmethod
     def get_collection():
