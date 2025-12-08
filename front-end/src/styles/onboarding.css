@@ -427,3 +427,50 @@ wizard-select-wrapper.wizard-select-wrapper--left {
   box-shadow: 0 0 0 1px rgba(241, 89, 42, 0.25);
 }
 
+
+/* Selected Courses Chips */
+.wizard-selected-courses {
+  margin-bottom: 12px;
+}
+
+.wizard-selected-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.wizard-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.wizard-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  font-size: 13px;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.wizard-chip:hover {
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+}
+
+.wizard-chip-remove {
+  font-size: 14px;
+  line-height: 1;
+  color: #94a3b8;
+}
+
+.wizard-chip:hover .wizard-chip-remove {
+  color: #64748b;
+}

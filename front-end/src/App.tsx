@@ -4,6 +4,7 @@ import Landing from "./pages/Landing";
 import Login from "./components/Login";
 import PlannerHome from "./pages/PlannerHome";
 import CareerStep from "./pages/CareerPath";
+import GeneratePlan from "./pages/GeneratePlan"; // Added import for GeneratePlan
 import ProtectedRoute from "./components/ProtectedRoute";
 import "./App.css";
 
@@ -34,6 +35,16 @@ function App() {
             element={
               <ProtectedRoute>
                 <CareerStep />
+              </ProtectedRoute>
+            }
+          />
+
+          {/* Step 3/4 – Generate Plan */}
+          <Route
+            path="/generate-plan"
+            element={
+              <ProtectedRoute>
+                <GeneratePlan />
               </ProtectedRoute>
             }
           />
