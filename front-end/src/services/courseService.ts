@@ -14,7 +14,7 @@ export interface Course {
 
 const API_BASE_URL = "https://uiucsemesterplanner.onrender.com/api/v1";
 
-export const fetchCourses = async (limit: number = 100): Promise<Course[]> => {
+export const fetchCourses = async (limit: number = 1000): Promise<Course[]> => {
     try {
         const res = await fetch(`${API_BASE_URL}/courses?limit=${limit}`);
         if (!res.ok) {
@@ -28,7 +28,7 @@ export const fetchCourses = async (limit: number = 100): Promise<Course[]> => {
     }
 };
 
-export const searchCourses = async (query: string, limit: number = 50): Promise<Course[]> => {
+export const searchCourses = async (query: string, limit: number = 100): Promise<Course[]> => {
     try {
         const res = await fetch(`${API_BASE_URL}/courses/search?q=${encodeURIComponent(query)}&limit=${limit}`);
         if (!res.ok) {

@@ -1,4 +1,5 @@
 from typing import Optional, List, Dict, Any
+import re
 from app.core.database import MongoDBClient
 from app.utils.serialization import to_jsonable
 from app.core.logging import get_logger
@@ -60,22 +61,53 @@ class CourseService:
         """
         collection = CourseService.get_collection()
 
-        # Build search filter
-        search_filter: Dict[str, Any] = {
-            "$or": [
-                {"course_id": {"$regex": query, "$options": "i"}},
-                {"title": {"$regex": query, "$options": "i"}},
-                {"description": {"$regex": query, "$options": "i"}},
-            ]
+        # Build a prefix regex pattern from the query that tolerates optional spaces between
+        # department letters and numbers (e.g., "CS124" matches "CS 124").
+        def build_prefix_pattern(q: str) -> str:
+            q = q.strip()
+            if not q:
+                return "^"
+            out = []
+            prev = ""
+            for ch in q:
+                # Insert optional whitespace between letter<->digit transitions when user didn't type spaces
+                if prev:
+                    if (
+                        (
+                            (prev.isalpha() and ch.isdigit())
+                            or (prev.isdigit() and ch.isalpha())
+                        )
+                        and prev != " "
+                        and ch != " "
+                    ):
+                        out.append(r"\s*")
+                if ch.isspace():
+                    out.append(r"\s*")
+                else:
+                    out.append(re.escape(ch))
+                prev = ch
+            return "^" + "".join(out)
+
+        pattern = build_prefix_pattern(query)
+
+        # Base filter: match by course_id prefix
+        base_filter: Dict[str, Any] = {
+            "course_id": {"$regex": pattern, "$options": "i"}
         }
 
+        # If skills provided, AND them with the base filter
+        search_filter: Dict[str, Any]
         if skills:
-            search_filter["$or"].append({"skills": {"$in": skills}})
+            search_filter = {"$and": [base_filter, {"skills": {"$in": skills}}]}
+        else:
+            search_filter = base_filter
 
         skip = (page - 1) * limit
         total = collection.count_documents(search_filter)
 
-        courses = list(collection.find(search_filter).skip(skip).limit(limit))
+        courses = list(
+            collection.find(search_filter).sort("course_id", 1).skip(skip).limit(limit)
+        )
 
         return to_jsonable(courses), total
 
