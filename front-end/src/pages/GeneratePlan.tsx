@@ -98,7 +98,6 @@ const GeneratePlan: React.FC = () => {
                 // 1. Generate Schedule
                 const result = await generateAcademicPlan(
                     state.currentSemester,
-                    state.major,
                     currentCareerPathId, // Use local state
                     state.selectedCourses
                 );
