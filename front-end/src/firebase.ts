@@ -1,24 +1,26 @@
-// src/firebase.ts
+// src/firebase.ts — read config from Vite environment variables
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCTnMWCPeC_PeW8kHSvFI8m6uNPkQvedgg",
-  authDomain: "uiuc-semester-planner.firebaseapp.com",
-  projectId: "uiuc-semester-planner",
-  storageBucket: "uiuc-semester-planner.firebasestorage.app",
-  messagingSenderId: "485488576830",
-  appId: "1:485488576830:web:4315adc9a48de6c04d046f",
-  measurementId: "G-4DN7RBMNGX"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig as Record<string, string>);
 
 // Initialize Firebase Authentication and export it
 export const auth = getAuth(app);
 
-// Optional analytics
-export const analytics = getAnalytics(app);
+// Optional analytics — only initialize if measurementId is provided
+export const analytics = (import.meta.env.VITE_FIREBASE_MEASUREMENT_ID)
+  ? getAnalytics(app)
+  : undefined;
 
