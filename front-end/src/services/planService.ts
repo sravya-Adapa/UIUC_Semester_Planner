@@ -10,7 +10,6 @@ export interface PlanResult {
 
 export const generateAcademicPlan = async (
     currentSemester: string,
-    major: string,
     careerPathId: string,
     completedCourses: Course[]
 ): Promise<PlanResult> => {

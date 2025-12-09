@@ -18,3 +18,11 @@ services:
         value: false
       - key: PYTHONUNBUFFERED
         value: "true"
+  - type: web
+    name: semester-planner-frontend
+    env: static
+    region: oregon
+    plan: free
+    buildCommand: bash -lc "cd front-end && npm ci && npm run build"
+    publishPath: front-end/dist
+    envVars: []
