@@ -12,7 +12,7 @@ export interface Course {
     prerequisites?: string[]; // Array of course IDs or names
 }
 
-const API_BASE_URL = "https://uiucsemesterplanner.onrender.com/api/v1";
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? "https://uiucsemesterplanner.onrender.com/api/v1") as string;
 
 export const fetchCourses = async (limit: number = 1000): Promise<Course[]> => {
     try {

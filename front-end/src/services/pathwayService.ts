@@ -1,7 +1,7 @@
 import { CodeBracketIcon, ChartBarIcon, CpuChipIcon, BriefcaseIcon, BeakerIcon, Squares2X2Icon } from "@heroicons/react/24/outline";
 
-// Define the API base URL (moving this from PlannerHome.tsx potentially, or just defining it here)
-const API_BASE_URL = "https://uiucsemesterplanner.onrender.com/api/v1";
+// Define the API base URL (use Vite env variable `VITE_API_BASE_URL`)
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? "https://uiucsemesterplanner.onrender.com/api/v1") as string;
 
 // Types matching the Backend response structure roughly
 export interface Pathway {
