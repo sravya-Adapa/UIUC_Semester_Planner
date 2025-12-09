@@ -25,4 +25,18 @@ services:
     plan: free
     buildCommand: bash -lc "cd front-end && npm ci && npm run build"
     publishPath: front-end/dist
-    envVars: []
+    envVars:
+      - key: VITE_FIREBASE_API_KEY
+        value: ${VITE_FIREBASE_API_KEY}
+      - key: VITE_FIREBASE_AUTH_DOMAIN
+        value: ${VITE_FIREBASE_AUTH_DOMAIN}
+      - key: VITE_FIREBASE_PROJECT_ID
+        value: ${VITE_FIREBASE_PROJECT_ID}
+      - key: VITE_FIREBASE_STORAGE_BUCKET
+        value: ${VITE_FIREBASE_STORAGE_BUCKET}
+      - key: VITE_FIREBASE_MESSAGING_SENDER_ID
+        value: ${VITE_FIREBASE_MESSAGING_SENDER_ID}
+      - key: VITE_FIREBASE_APP_ID
+        value: ${VITE_FIREBASE_APP_ID}
+      - key: VITE_FIREBASE_MEASUREMENT_ID
+        value: ${VITE_FIREBASE_MEASUREMENT_ID}
