@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     # Firebase settings
     FIREBASE_CREDENTIALS_PATH: str = os.getenv("FIREBASE_CREDENTIALS_PATH", "")
 
-    #OpenAI settings
+    # OpenAI settings
     openai_api_key: str | None = None
 
     # CORS settings
@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = str(Path(__file__).parent.parent.parent.parent / ".env")
         env_file_encoding = "utf-8"
+        extra = "ignore"
 
 
 # Create global settings instance
