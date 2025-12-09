@@ -7,18 +7,19 @@ import json
 import os
 
 
-
 YEARS = range(2024, 2026)
 SEMESTERS = ["spring", "summer", "fall"]
 DEPARTMENTS = ["CS", "IS", "STAT", "ECE", "MATH", "BADM"]
 BASE_URL = "https://courses.illinois.edu/cisapp/explorer/schedule"
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 def safe_text(element):
     """
     This function is to avoid errors while extracting text from xml element
     """
     return element.text.strip() if element is not None and element.text else None
+
 
 def extract_prerequisites(description):
     """
@@ -29,16 +30,17 @@ def extract_prerequisites(description):
     match = re.search(r"Prerequisite[s]?: (.*?)(\.|$)", description)
     return match.group(1).strip() if match else None
 
+
 def fix_url(url):
     """Sometimes UIUC API can return broken urls. This function fixes the broken urls."""
     if "cis.local" in url:
         url = url.replace(
-            "http://cis.local/cisapi/",
-            "https://courses.illinois.edu/cisapp/explorer/"
+            "http://cis.local/cisapi/", "https://courses.illinois.edu/cisapp/explorer/"
         )
         if not url.endswith(".xml"):
             url += ".xml"
     return url
+
 
 def get_response(url, retries=3):
     """This function fetches the response from url if any errors it will fix the url and retries upto 3 times(due to API rate limit)"""
@@ -56,7 +58,8 @@ def get_response(url, retries=3):
     print(f"Failed after retries for {url}")
     return None
 
-def get_course_details(dept, year, semester,departments: dict):
+
+def get_course_details(dept, year, semester, departments: dict):
     """
     Extracts the course details for all the courses in given department, semester and year and stores in department dictionary.
     course details: course ID, title, credit hours, prerequisites, general education flag, instructors, semesters the course is available
@@ -101,12 +104,13 @@ def get_course_details(dept, year, semester,departments: dict):
                 "prerequisites": prereq,
                 "instructors": set(),
                 "semesters": set(),
-                "gen_ed": gened
+                "gen_ed": gened,
             }
         departments[dept][full_id]["instructors"].update(instructors)
         departments[dept][full_id]["semesters"].add(f"{semester}")
     print(f"Pausing after {dept} to avoid API throttling")
     time.sleep(3)
+
 
 def convert_set_to_list(departments):
     """
@@ -114,10 +118,13 @@ def convert_set_to_list(departments):
     """
     for dept in departments:
         for cid in departments[dept]:
-            departments[dept][cid]["instructors"] = list(departments[dept][cid]["instructors"])
-            departments[dept][cid]["semesters"] = list(departments[dept][cid]["semesters"])
+            departments[dept][cid]["instructors"] = list(
+                departments[dept][cid]["instructors"]
+            )
+            departments[dept][cid]["semesters"] = list(
+                departments[dept][cid]["semesters"]
+            )
     return departments
-    
 
 
 if __name__ == "__main__":
@@ -125,11 +132,11 @@ if __name__ == "__main__":
     for dept in DEPARTMENTS:
         for year in YEARS:
             for semester in SEMESTERS:
-                get_course_details(dept, year, semester,departments)
-                
+                get_course_details(dept, year, semester, departments)
+
     departments = convert_set_to_list(departments)
 
-    OUTPUT_PATH = os.path.join(BASE_DIR, "data", "raw", "uiuc_courses.json")
+    OUTPUT_PATH = os.path.join(DATA_DIR, "raw", "uiuc_courses.json")
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(departments, f, indent=4, ensure_ascii=False)
     print(f"\nSaved course data to file {OUTPUT_PATH}")

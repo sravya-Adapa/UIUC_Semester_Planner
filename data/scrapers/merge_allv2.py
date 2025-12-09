@@ -5,9 +5,9 @@ import os
 import re
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
-PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
+DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAW_DIR = os.path.join(DATA_DIR, "raw")
+PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
 
 COURSE_FILE = os.path.join(RAW_DIR, "uiuc_courses.json")
 GENED_FILE = os.path.join(RAW_DIR, "uiuc_gened_courses.json")
@@ -25,7 +25,7 @@ DEPT_MAP = {
     "RHET": "Rhetoric",
     "CMN": "Communication",
     "HIST": "History",
-    "PHIL": "Philosophy"
+    "PHIL": "Philosophy",
 }
 
 
@@ -51,6 +51,7 @@ def merge_course_jsons(main_courses, gened_courses):
 # CREDIT HOURS
 # ---------------------------
 
+
 def clean_credit_hours(text):
     if not text:
         return None
@@ -68,6 +69,7 @@ def clean_credit_hours(text):
 # ---------------------------
 # PREREQUISITES
 # ---------------------------
+
 
 def extract_course_codes(text):
     raw = re.findall(r"\b([A-Za-z]{2,5}\s*\d{2,3})\b", text)
@@ -108,6 +110,7 @@ def clean_prereq(text):
 # RMP LOOKUP
 # ---------------------------
 
+
 def build_rmp_lookup(ratings):
     lookup = defaultdict(list)
     for prof in ratings:
@@ -121,6 +124,7 @@ def build_rmp_lookup(ratings):
 # ---------------------------
 # GPA LOOKUP
 # ---------------------------
+
 
 def build_gpa_lookup(gpa_file):
     lookup = defaultdict(list)
@@ -155,6 +159,7 @@ def build_gpa_lookup(gpa_file):
 # ---------------------------
 # MERGE INTO FINAL FORMAT
 # ---------------------------
+
 
 def merge_data(courses, rmp_lookup, gpa_lookup):
     enriched = {}
@@ -202,13 +207,25 @@ def merge_data(courses, rmp_lookup, gpa_lookup):
                 instructor_block[inst] = {
                     "rating": inst_rating,
                     "difficulty": inst_difficulty,
-                    "avg_gpa": round(inst_avg_gpa, 2) if inst_avg_gpa is not None else None
+                    "avg_gpa": (
+                        round(inst_avg_gpa, 2) if inst_avg_gpa is not None else None
+                    ),
                 }
 
             # --- COURSE LEVEL ---
-            course_avg_rating = round(sum(rating_values) / len(rating_values), 2) if rating_values else None
-            course_avg_difficulty = round(sum(difficulty_values) / len(difficulty_values), 2) if difficulty_values else None
-            course_avg_gpa = round(sum(gpa_values) / len(gpa_values), 2) if gpa_values else None
+            course_avg_rating = (
+                round(sum(rating_values) / len(rating_values), 2)
+                if rating_values
+                else None
+            )
+            course_avg_difficulty = (
+                round(sum(difficulty_values) / len(difficulty_values), 2)
+                if difficulty_values
+                else None
+            )
+            course_avg_gpa = (
+                round(sum(gpa_values) / len(gpa_values), 2) if gpa_values else None
+            )
 
             enriched[course_id] = {
                 "course_id": course_id,
@@ -217,12 +234,12 @@ def merge_data(courses, rmp_lookup, gpa_lookup):
                 "description": info["description"],
                 "credit_hours": clean_credit_hours(info["credit_hours"]),
                 "prerequisites": prereq_clean,
-                "instructors": instructor_block,   # <-- FULL INSTRUCTOR DATA
+                "instructors": instructor_block,  # <-- FULL INSTRUCTOR DATA
                 "course_avg_rating": course_avg_rating,
                 "course_avg_difficulty": course_avg_difficulty,
                 "course_avg_gpa": course_avg_gpa,
                 "semesters": info["semesters"],
-                "gen_ed": info["gen_ed"]
+                "gen_ed": info["gen_ed"],
             }
 
     return enriched, total_matches

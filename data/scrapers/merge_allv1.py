@@ -4,10 +4,9 @@ from collections import defaultdict
 import os
 
 
-
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
-PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
+DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAW_DIR = os.path.join(DATA_DIR, "raw")
+PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
 COURSE_FILE = os.path.join(RAW_DIR, "uiuc_courses.json")
 GENED_FILE = os.path.join(RAW_DIR, "uiuc_gened_courses.json")
 RMP_FILE = os.path.join(RAW_DIR, "uiuc_professor_ratings.json")
@@ -24,7 +23,7 @@ DEPT_MAP = {
     "RHET": "Rhetoric",
     "CMN": "Communication",
     "HIST": "History",
-    "PHIL": "Philosophy"
+    "PHIL": "Philosophy",
 }
 
 
@@ -32,7 +31,6 @@ def load_json(path):
     """Load a JSON file safely."""
     with open(path, "r") as f:
         return json.load(f)
-
 
 
 def merge_course_jsons(main_courses, gened_courses):
@@ -48,6 +46,7 @@ def merge_course_jsons(main_courses, gened_courses):
                 merged[dept][cid] = info
 
     return merged
+
 
 def extract_pairs(parts):
     extracted = []
@@ -153,7 +152,7 @@ def merge_data(courses, rmp_lookup, gpa_lookup):
                 instructor_block[inst] = {
                     "rating": rating,
                     "difficulty": difficulty,
-                    "avg_gpa": avg_gpa
+                    "avg_gpa": avg_gpa,
                 }
 
             enriched[dept][course_id] = {
@@ -164,13 +163,10 @@ def merge_data(courses, rmp_lookup, gpa_lookup):
                 "prerequisites": prereq_clean,
                 "instructors": instructor_block,
                 "semesters": info["semesters"],
-                "gen_ed": info["gen_ed"]
+                "gen_ed": info["gen_ed"],
             }
 
     return enriched, total_matches
-
-
-
 
 
 if __name__ == "__main__":

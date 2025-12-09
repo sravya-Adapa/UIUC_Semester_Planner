@@ -3,23 +3,22 @@ import math
 import json
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUTPUT_PATH = os.path.join(BASE_DIR, "data", "raw", "uiuc_professor_ratings.json")
+DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_PATH = os.path.join(DATA_DIR, "raw", "uiuc_professor_ratings.json")
 API_URL = "https://www.ratemyprofessors.com/graphql"
 UIUC_ID = "U2Nob29sLTExMTI="
 HEADERS = {
     "Content-Type": "application/json",
     "Accept": "*/*",
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/122.0.0.0 Safari/537.36",
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/122.0.0.0 Safari/537.36",
     "Origin": "https://www.ratemyprofessors.com",
     "Referer": "https://www.ratemyprofessors.com/",
 }
 
 
-
-TOTAL_COUNT_QUERY = '''
+TOTAL_COUNT_QUERY = """
 query ProfessorCountQuery($schoolID: ID!) {
   newSearch {
     teachers(query: { schoolID: $schoolID }) {
@@ -27,10 +26,10 @@ query ProfessorCountQuery($schoolID: ID!) {
     }
   }
 }
-'''
+"""
 
 
-GET_PROFESSORS_QUERY = '''
+GET_PROFESSORS_QUERY = """
 query ProfessorRatingsQuery($schoolID: ID!, $first: Int!, $cursor: String) {
   newSearch {
     teachers(query: { schoolID: $schoolID }, first: $first, after: $cursor) {
@@ -50,7 +49,8 @@ query ProfessorRatingsQuery($schoolID: ID!, $first: Int!, $cursor: String) {
     }
   }
 }
-'''
+"""
+
 
 def get_total_professor_count():
     """
@@ -96,6 +96,7 @@ def get_all_professors(batch_size=50):
         cursor = data[-1]["cursor"]
 
     return professors
+
 
 if __name__ == "__main__":
     all_professors = get_all_professors()

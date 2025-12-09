@@ -2,28 +2,31 @@ import json
 import pandas as pd
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
+# Point to the repo's data directory
+DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAW_DATA_DIR = os.path.join(DATA_DIR, "raw")
 COURSE_FILE = os.path.join(RAW_DATA_DIR, "uiuc_courses.json")
 GENED_FILE = os.path.join(RAW_DATA_DIR, "uiuc_gened_courses.json")
 OUTPUT_FILE = os.path.join(RAW_DATA_DIR, "gpa_cleaned.csv")
 
 GPA_FILES = {
-    "fall_2024":  os.path.join(RAW_DATA_DIR, "fa2024.csv"),
+    "fall_2024": os.path.join(RAW_DATA_DIR, "fa2024.csv"),
     "spring_2025": os.path.join(RAW_DATA_DIR, "sp2025.csv"),
-    "summer_2024": os.path.join(RAW_DATA_DIR, "su2024.csv")
+    "summer_2024": os.path.join(RAW_DATA_DIR, "su2024.csv"),
 }
 
 
 def load_json(path):
     """Load JSON safely."""
     with open(path, "r") as f:
-            return json.load(f)
+        return json.load(f)
+
 
 def normalize_columns(df):
     """Normalize column names for consistency."""
     df.columns = [col.lower().strip().replace(" ", "_") for col in df.columns]
     return df
+
 
 def build_course_set(all_courses, gened_courses):
     """Combine course IDs from both JSONs."""
@@ -50,7 +53,7 @@ def filter_gpa(df, valid_ids):
         "course_title",
         "primary_instructor",
         "average_grade",
-        "course_id"
+        "course_id",
     ]
     df_filtered = df[df["course_id"].isin(valid_ids)][required_cols]
     return df_filtered
@@ -58,12 +61,12 @@ def filter_gpa(df, valid_ids):
 
 def merge_duplicate_instructors(df):
     """Merge rows that have the same course and instructor."""
-    grouped = (
-        df.groupby(["course_id", "course_title", "primary_instructor"], as_index=False)
-          .agg({"average_grade": "mean"})
-    )
+    grouped = df.groupby(
+        ["course_id", "course_title", "primary_instructor"], as_index=False
+    ).agg({"average_grade": "mean"})
     grouped["average_grade"] = grouped["average_grade"].round(2)
     return grouped
+
 
 if __name__ == "__main__":
 
@@ -76,7 +79,6 @@ if __name__ == "__main__":
         df_filtered = filter_gpa(df, valid_course_ids)
         df_filtered["term"] = term
         combined_list.append(df_filtered)
-
 
     combined_df = pd.concat(combined_list, ignore_index=True)
     print(f"\nRows BEFORE merging duplicates: {len(combined_df)}")
