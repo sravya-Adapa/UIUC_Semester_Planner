@@ -1,6 +1,6 @@
 // src/pages/PlannerHome.tsx
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 
 import { fetchPathways, type CareerPath } from "../services/pathwayService";
@@ -37,14 +37,17 @@ const semesters = [
 
 const PlannerHome: React.FC = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const incomingState = location.state as any; // Using any to avoid duplicating the interface for now
+
   // ----- Step control -----
   const [step, setStep] = useState<Step>(1);
 
   // ----- Step 1 state -----
-  const [selectedMajor, setSelectedMajor] = useState("");
+  const [selectedMajor, setSelectedMajor] = useState(incomingState?.major || "");
 
   // ----- Step 2 state -----
-  const [selectedCareer, setSelectedCareer] = useState<string | null>(null);
+  const [selectedCareer, setSelectedCareer] = useState<string | null>(incomingState?.careerPathId || null);
   const [pathways, setPathways] = useState<CareerPath[]>([]);
 
   // Fetch pathways when step becomes 2 (or on mount if you prefer, but let's do lazy load or on mount)
@@ -58,9 +61,9 @@ const PlannerHome: React.FC = () => {
   }, []);
 
   // ----- Step 3 state -----
-  const [currentSemester, setCurrentSemester] = useState("");
+  const [currentSemester, setCurrentSemester] = useState(incomingState?.currentSemester || "");
   // Store selected courses persists
-  const [selectedCoursesData, setSelectedCoursesData] = useState<Course[]>([]);
+  const [selectedCoursesData, setSelectedCoursesData] = useState<Course[]>(incomingState?.selectedCourses || []);
 
   // Search state
   const [courseSearch, setCourseSearch] = useState("");

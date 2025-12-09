@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { auth } from "../firebase";
+import { signOut } from "firebase/auth";
 import type { Course } from "../services/courseService";
 import { searchCourses, fetchCourseDetails } from "../services/courseService";
 import { generateAcademicPlan } from "../services/planService";
-import { fetchPathwayDetails } from "../services/pathwayService";
+import { fetchPathwayDetails, fetchPathways, type CareerPath } from "../services/pathwayService";
 import "../styles/dashboard.css";
 // import type { CareerPath } from "../services/pathwayService";
 
-import { CalendarDaysIcon, BriefcaseIcon, ChartBarIcon, BookOpenIcon, UserGroupIcon, XMarkIcon, SparklesIcon, UserCircleIcon } from "@heroicons/react/24/outline";
+import { CalendarDaysIcon, BriefcaseIcon, ChartBarIcon, BookOpenIcon, UserGroupIcon, XMarkIcon, SparklesIcon, UserCircleIcon, CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 
 // ----- Types -----
 interface DashboardState {
@@ -51,11 +53,18 @@ const GeneratePlan: React.FC = () => {
     const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
     const [recommendations, setRecommendations] = useState<Course[]>([]);
 
+    // Career Path State
+    const [currentCareerPathId, setCurrentCareerPathId] = useState(state?.careerPathId || "");
+    const [currentCareerPathName, setCurrentCareerPathName] = useState(state?.careerPathName || state?.careerPathId || "");
+    const [availablePathways, setAvailablePathways] = useState<CareerPath[]>([]);
+    const [isCareerDropdownOpen, setIsCareerDropdownOpen] = useState(false);
+
     // --- Add Elective Search State ---
     const [activeSemesterIndex, setActiveSemesterIndex] = useState<number | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
     const [searchResults, setSearchResults] = useState<Course[]>([]);
     const [isSearching, setIsSearching] = useState(false);
+    const [isProfileOpen, setIsProfileOpen] = useState(false);
 
     // Derived state for progress
     const completedCredits = state?.selectedCourses.reduce((sum, c) => {
@@ -71,13 +80,26 @@ const GeneratePlan: React.FC = () => {
             return;
         }
 
+        // Fetch available pathways on mount
+        const loadPathways = async () => {
+            const paths = await fetchPathways();
+            setAvailablePathways(paths);
+        };
+        loadPathways();
+    }, [state, navigate]);
+
+    // Effect to load data whenever dependencies change (including career path)
+    useEffect(() => {
+        if (!state || !currentCareerPathId) return;
+
         const loadData = async () => {
             setIsLoading(true);
             try {
                 // 1. Generate Schedule
                 const result = await generateAcademicPlan(
                     state.currentSemester,
-                    state.careerPathId,
+                    state.major,
+                    currentCareerPathId, // Use local state
                     state.selectedCourses
                 );
 
@@ -90,7 +112,7 @@ const GeneratePlan: React.FC = () => {
                 setSchedule(newSchedule);
 
                 // 2. Fetch Recommendations (Core Courses from Pathway)
-                const pathway = await fetchPathwayDetails(state.careerPathId);
+                const pathway = await fetchPathwayDetails(currentCareerPathId); // Use local state
                 if (pathway && pathway.core_courses) {
                     // Take top 4-5 core courses
                     const topCourses = pathway.core_courses.slice(0, 5);
@@ -112,7 +134,18 @@ const GeneratePlan: React.FC = () => {
         };
 
         loadData();
-    }, [state, navigate]);
+    }, [state, currentCareerPathId]); // Run when career path changes
+
+    const handleCareerChange = (path: CareerPath) => {
+        if (path.id === currentCareerPathId) {
+            setIsCareerDropdownOpen(false);
+            return;
+        }
+        setCurrentCareerPathId(path.id);
+        setCurrentCareerPathName(path.label);
+        setIsCareerDropdownOpen(false);
+        // The useEffect above will trigger data reload
+    };
 
     // --- Helper Functions ---
     const calculateSemesterDifficulty = (courses: Course[]): string => {
@@ -313,6 +346,27 @@ const GeneratePlan: React.FC = () => {
         });
     };
 
+    const handleLogout = async () => {
+        try {
+            await signOut(auth);
+            navigate("/login");
+        } catch (error) {
+            console.error("Error signing out:", error);
+        }
+    };
+
+    const handleLogoClick = () => {
+        navigate("/planner", {
+            state: {
+                major: state.major,
+                careerPathId: currentCareerPathId,
+                careerPathName: currentCareerPathName,
+                selectedCourses: state.selectedCourses,
+                currentSemester: state.currentSemester
+            }
+        });
+    };
+
     if (!state) return null;
 
     return (
@@ -484,15 +538,22 @@ const GeneratePlan: React.FC = () => {
             {/* NavBar */}
             <nav className="dashboard-nav">
                 <div className="dashboard-nav-content">
-                    <div className="dashboard-logo">
+                    <div className="dashboard-logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
                         <div className="dashboard-logo-icon">
                             <img src="/uiuc-planner-icon.svg" alt="Icon" />
                         </div>
                         <span>UIUC Semester Planner</span>
                     </div>
 
-                    <div className="dashboard-user">
+                    <div className="dashboard-user" onClick={() => setIsProfileOpen(!isProfileOpen)}>
                         <UserCircleIcon className="w-8 h-8 text-gray-400" style={{ width: '32px', height: '32px' }} />
+                        {isProfileOpen && (
+                            <div className="user-dropdown-menu">
+                                <button className="dropdown-item" onClick={handleLogout}>
+                                    Logout
+                                </button>
+                            </div>
+                        )}
                     </div>
                 </div>
             </nav>
@@ -502,15 +563,42 @@ const GeneratePlan: React.FC = () => {
 
                 {/* Left Sidebar */}
                 <aside className="dashboard-sidebar-left">
-                    <div className="dashboard-card career-path-card">
+                    <div
+                        className="dashboard-card career-path-card"
+                        onClick={() => setIsCareerDropdownOpen(!isCareerDropdownOpen)}
+                    >
                         <div className="card-header-icon">
                             <BriefcaseIcon className="w-8 h-8 text-white" style={{ width: '32px', height: '32px' }} />
                         </div>
                         <div className="career-info">
                             <p className="label-sm">Career Path</p>
-                            <h3>{state.careerPathName || state.careerPathId}</h3>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                                <h3>{currentCareerPathName}</h3>
+                                <ChevronDownIcon style={{ width: '16px', color: 'rgba(255,255,255,0.7)' }} />
+                            </div>
                             <p className="subtitle">{state.major}</p>
                         </div>
+
+                        {/* Dropdown */}
+                        {isCareerDropdownOpen && (
+                            <div className="career-dropdown-menu" onClick={(e) => e.stopPropagation()}>
+                                {availablePathways.map(path => (
+                                    <button
+                                        key={path.id}
+                                        className="career-dropdown-item"
+                                        onClick={() => handleCareerChange(path)}
+                                    >
+                                        <div className="career-dropdown-icon" style={{ color: path.color }}>
+                                            <path.icon />
+                                        </div>
+                                        <span>{path.label}</span>
+                                        {path.id === currentCareerPathId && (
+                                            <CheckIcon className="career-dropdown-check" />
+                                        )}
+                                    </button>
+                                ))}
+                            </div>
+                        )}
                     </div>
 
                     <div className="dashboard-card progress-card">
@@ -650,7 +738,7 @@ const GeneratePlan: React.FC = () => {
                             <SparklesIcon className="w-6 h-6 text-orange-500" style={{ width: '24px', height: '24px', color: '#f97316' }} />
                             <div>
                                 <h3 style={{ margin: 0 }}>Recommendations</h3>
-                                <p className="subtitle">Suggested for {state.careerPathName || state.careerPathId}</p>
+                                <p className="subtitle">Suggested for {currentCareerPathName}</p>
                             </div>
                         </div>
                     </div>
