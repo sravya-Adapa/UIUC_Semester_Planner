@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     # Firebase settings
     FIREBASE_CREDENTIALS_PATH: str = os.getenv("FIREBASE_CREDENTIALS_PATH", "")
 
+    #OpenAI settings
+    openai_api_key: str | None = None
+
     # CORS settings
     CORS_ORIGINS: list = os.getenv(
         "CORS_ORIGINS", "http://localhost:5173,http://localhost:3000"
