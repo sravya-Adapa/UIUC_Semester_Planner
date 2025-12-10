@@ -2,25 +2,55 @@ import json
 import os
 import certifi
 from pymongo import MongoClient, UpdateOne
+from typing import Optional
 
-# Resolve paths relative to the repo's data directory
-DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Load environment from repo root if python-dotenv is available
+try:
+    from dotenv import load_dotenv  # type: ignore
+except Exception:
+    load_dotenv = None  # optional dependency
+
+# Resolve paths
+DB_SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.dirname(DB_SCRIPTS_DIR)
+REPO_ROOT = os.path.dirname(DATA_DIR)
+
+# Load .env from repository root if available
+if load_dotenv:
+    env_path = os.path.join(REPO_ROOT, ".env")
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+
 JSON_PATH = os.path.join(DATA_DIR, "processed", "uiuc_courses_flatten.json")
 
-with open(JSON_PATH, "r") as f:
+with open(JSON_PATH, "r", encoding="utf-8") as f:
     courses = json.load(f)
 
 print(f"Loaded {len(courses)} courses.")
 
-MONGO_URI = (
-    "mongodb+srv://uiuc_admin:uiuc123@cluster0.zqytfnv.mongodb.net/?appName=Cluster0"
+# Read Mongo configuration from environment
+MONGO_URI: str = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
+DB_NAME: str = os.getenv("MONGODB_DB_NAME", "semester_planner")
+TIMEOUT_MS: int = int(os.getenv("MONGODB_TIMEOUT_MS", "10000"))
+
+uri_lower = MONGO_URI.lower()
+use_tls = (
+    uri_lower.startswith("mongodb+srv://")
+    or ("tls=true" in uri_lower)
+    or ("ssl=true" in uri_lower)
 )
 
-client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
-db = client["uiuc"]
+if use_tls:
+    client = MongoClient(
+        MONGO_URI, tlsCAFile=certifi.where(), serverSelectionTimeoutMS=TIMEOUT_MS
+    )
+else:
+    client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=TIMEOUT_MS)
+
+db = client[DB_NAME]
 collection = db["courses"]
 
-print("Connected to MongoDB Atlas.")
+print(f"Connected to MongoDB. DB='{DB_NAME}', collection='courses'.")
 
 operations = []
 
